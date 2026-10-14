@@ -9,10 +9,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="C:\Users\Jkrumsiek\Desktop\FlightProjectIT3.vb" Link="FlightProjectIT3.vb" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Import Include="System.Data" />
     <Import Include="System.Drawing" />
     <Import Include="System.Windows.Forms" />
