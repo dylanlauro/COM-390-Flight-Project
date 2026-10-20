@@ -110,6 +110,12 @@ Partial Class Form1
         CheckBox1 = New CheckBox()
         Label13 = New Label()
         Label14 = New Label()
+        LabelTaken = New Label()
+        SeatLegend = New Panel()
+        AvailableColor = New Panel()
+        SelectedColor = New Panel()
+        TakenColor = New Panel()
+        SeatLegend.SuspendLayout()
         GroupBox1.SuspendLayout()
         SuspendLayout()
         ' 
@@ -118,8 +124,7 @@ Partial Class Form1
         GroupBox1.BackColor = SystemColors.ActiveBorder
         GroupBox1.BackgroundImage = CType(resources.GetObject("GroupBox1.BackgroundImage"), Image)
         GroupBox1.BackgroundImageLayout = ImageLayout.Stretch
-        GroupBox1.Controls.Add(Label14)
-        GroupBox1.Controls.Add(Label13)
+        GroupBox1.Controls.Add(SeatLegend)
         GroupBox1.Controls.Add(Label12)
         GroupBox1.Controls.Add(Label11)
         GroupBox1.Controls.Add(Label10)
@@ -1483,7 +1488,7 @@ Partial Class Form1
         ' Label13
         ' 
         Label13.AutoSize = True
-        Label13.Location = New Point(6, 22)
+        Label13.Location = New Point(36, 12)
         Label13.Name = "Label13"
         Label13.Size = New Size(55, 15)
         Label13.TabIndex = 102
@@ -1492,11 +1497,62 @@ Partial Class Form1
         ' Label14
         ' 
         Label14.AutoSize = True
-        Label14.Location = New Point(0, 65)
+        Label14.Location = New Point(36, 42)
         Label14.Name = "Label14"
-        Label14.Size = New Size(47, 15)
+        Label14.Size = New Size(51, 15)
         Label14.TabIndex = 103
-        Label14.Text = "Label14"
+        Label14.Text = "Selected"
+        ' 
+        ' LabelTaken
+        ' 
+        LabelTaken.AutoSize = True
+        LabelTaken.Location = New Point(36, 72)
+        LabelTaken.Name = "LabelTaken"
+        LabelTaken.Size = New Size(37, 15)
+        LabelTaken.TabIndex = 104
+        LabelTaken.Text = "Taken"
+        ' 
+        ' SeatLegend
+        ' 
+        SeatLegend.BackColor = Color.White
+        SeatLegend.BorderStyle = BorderStyle.FixedSingle
+        SeatLegend.Controls.Add(Label13)
+        SeatLegend.Controls.Add(Label14)
+        SeatLegend.Controls.Add(LabelTaken)
+        SeatLegend.Controls.Add(AvailableColor)
+        SeatLegend.Controls.Add(SelectedColor)
+        SeatLegend.Controls.Add(TakenColor)
+        SeatLegend.Location = New Point(6, 22)
+        SeatLegend.Name = "SeatLegend"
+        SeatLegend.Size = New Size(140, 100)
+        SeatLegend.TabIndex = 102
+        ' 
+        ' AvailableColor
+        ' 
+        AvailableColor.BackColor = Color.MediumSeaGreen
+        AvailableColor.BorderStyle = BorderStyle.FixedSingle
+        AvailableColor.Location = New Point(10, 10)
+        AvailableColor.Name = "AvailableColor"
+        AvailableColor.Size = New Size(18, 18)
+        AvailableColor.TabIndex = 105
+        ' 
+        ' SelectedColor
+        ' 
+        SelectedColor.BackColor = Color.DeepSkyBlue
+        SelectedColor.BorderStyle = BorderStyle.FixedSingle
+        SelectedColor.Location = New Point(10, 40)
+        SelectedColor.Name = "SelectedColor"
+        SelectedColor.Size = New Size(18, 18)
+        SelectedColor.TabIndex = 106
+        ' 
+        ' TakenColor
+        ' 
+        TakenColor.BackColor = Color.Gray
+        TakenColor.BorderStyle = BorderStyle.FixedSingle
+        TakenColor.Location = New Point(10, 70)
+        TakenColor.Name = "TakenColor"
+        TakenColor.Size = New Size(18, 18)
+        TakenColor.TabIndex = 107
         ' 
         ' Form1
         ' 
@@ -1508,6 +1564,8 @@ Partial Class Form1
         Text = "Form1"
         GroupBox1.ResumeLayout(False)
         GroupBox1.PerformLayout()
+        SeatLegend.ResumeLayout(False)
+        SeatLegend.PerformLayout()
         ResumeLayout(False)
     End Sub
     Friend WithEvents GroupBox1 As GroupBox
@@ -1597,5 +1655,10 @@ Partial Class Form1
     Friend WithEvents Label3 As Label
     Friend WithEvents Label13 As Label
     Friend WithEvents Label14 As Label
+    Friend WithEvents LabelTaken As Label
+    Friend WithEvents SeatLegend As Panel
+    Friend WithEvents AvailableColor As Panel
+    Friend WithEvents SelectedColor As Panel
+    Friend WithEvents TakenColor As Panel
 
 End Class
