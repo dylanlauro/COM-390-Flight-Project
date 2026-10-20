@@ -6,7 +6,12 @@
     <StartupObject>Sub Main</StartupObject>
     <UseWindowsForms>true</UseWindowsForms>
     <MyType>WindowsForms</MyType>
+    <DefaultItemExcludes>$(DefaultItemExcludes);RegressionConsole\**</DefaultItemExcludes>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="RegressionExample.vb" />
+  </ItemGroup>
 
   <ItemGroup>
     <Import Include="System.Data" />
