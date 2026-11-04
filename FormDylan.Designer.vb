@@ -367,7 +367,7 @@ Partial Class FormDylan
         ' CheckBox79
         ' 
         CheckBox79.Appearance = Appearance.Button
-        CheckBox79.BackColor = Color.MediumSeaGreen
+        CheckBox79.BackColor = Color.Gray
         CheckBox79.FlatAppearance.CheckedBackColor = Color.DeepSkyBlue
         CheckBox79.FlatAppearance.MouseOverBackColor = Color.DeepSkyBlue
         CheckBox79.FlatStyle = FlatStyle.Flat
@@ -382,7 +382,7 @@ Partial Class FormDylan
         ' CheckBox80
         ' 
         CheckBox80.Appearance = Appearance.Button
-        CheckBox80.BackColor = Color.MediumSeaGreen
+        CheckBox80.BackColor = Color.Gray
         CheckBox80.FlatAppearance.CheckedBackColor = Color.DeepSkyBlue
         CheckBox80.FlatAppearance.MouseOverBackColor = Color.DeepSkyBlue
         CheckBox80.FlatStyle = FlatStyle.Flat
@@ -397,7 +397,7 @@ Partial Class FormDylan
         ' CheckBox81
         ' 
         CheckBox81.Appearance = Appearance.Button
-        CheckBox81.BackColor = Color.MediumSeaGreen
+        CheckBox81.BackColor = Color.Gray
         CheckBox81.FlatAppearance.CheckedBackColor = Color.DeepSkyBlue
         CheckBox81.FlatAppearance.MouseOverBackColor = Color.DeepSkyBlue
         CheckBox81.FlatStyle = FlatStyle.Flat
@@ -481,7 +481,7 @@ Partial Class FormDylan
         ' CheckBox87
         ' 
         CheckBox87.Appearance = Appearance.Button
-        CheckBox87.BackColor = Color.MediumSeaGreen
+        CheckBox87.BackColor = Color.Gray
         CheckBox87.FlatAppearance.CheckedBackColor = Color.DeepSkyBlue
         CheckBox87.FlatAppearance.MouseOverBackColor = Color.DeepSkyBlue
         CheckBox87.FlatStyle = FlatStyle.Flat
@@ -496,7 +496,7 @@ Partial Class FormDylan
         ' CheckBox88
         ' 
         CheckBox88.Appearance = Appearance.Button
-        CheckBox88.BackColor = Color.MediumSeaGreen
+        CheckBox88.BackColor = Color.Gray
         CheckBox88.FlatStyle = FlatStyle.Flat
         CheckBox88.Location = New Point(287, 715)
         CheckBox88.Name = "CheckBox88"
@@ -565,7 +565,7 @@ Partial Class FormDylan
         ' CheckBox69
         ' 
         CheckBox69.Appearance = Appearance.Button
-        CheckBox69.BackColor = Color.MediumSeaGreen
+        CheckBox69.BackColor = Color.Gray
         CheckBox69.FlatAppearance.CheckedBackColor = Color.DeepSkyBlue
         CheckBox69.FlatAppearance.MouseOverBackColor = Color.DeepSkyBlue
         CheckBox69.FlatStyle = FlatStyle.Flat
@@ -580,7 +580,7 @@ Partial Class FormDylan
         ' CheckBox70
         ' 
         CheckBox70.Appearance = Appearance.Button
-        CheckBox70.BackColor = Color.MediumSeaGreen
+        CheckBox70.BackColor = Color.Gray
         CheckBox70.FlatStyle = FlatStyle.Flat
         CheckBox70.Location = New Point(287, 659)
         CheckBox70.Name = "CheckBox70"
@@ -593,7 +593,7 @@ Partial Class FormDylan
         ' CheckBox71
         ' 
         CheckBox71.Appearance = Appearance.Button
-        CheckBox71.BackColor = Color.MediumSeaGreen
+        CheckBox71.BackColor = Color.Gray
         CheckBox71.FlatStyle = FlatStyle.Flat
         CheckBox71.Location = New Point(235, 659)
         CheckBox71.Name = "CheckBox71"
@@ -606,7 +606,7 @@ Partial Class FormDylan
         ' CheckBox72
         ' 
         CheckBox72.Appearance = Appearance.Button
-        CheckBox72.BackColor = Color.MediumSeaGreen
+        CheckBox72.BackColor = Color.Gray
         CheckBox72.FlatStyle = FlatStyle.Flat
         CheckBox72.Location = New Point(183, 659)
         CheckBox72.Name = "CheckBox72"
@@ -653,7 +653,7 @@ Partial Class FormDylan
         ' CheckBox57
         ' 
         CheckBox57.Appearance = Appearance.Button
-        CheckBox57.BackColor = Color.MediumSeaGreen
+        CheckBox57.BackColor = Color.Gray
         CheckBox57.CheckAlign = ContentAlignment.MiddleCenter
         CheckBox57.FlatAppearance.CheckedBackColor = Color.DeepSkyBlue
         CheckBox57.FlatAppearance.MouseDownBackColor = Color.White
@@ -670,7 +670,7 @@ Partial Class FormDylan
         ' CheckBox58
         ' 
         CheckBox58.Appearance = Appearance.Button
-        CheckBox58.BackColor = Color.MediumSeaGreen
+        CheckBox58.BackColor = Color.Gray
         CheckBox58.CheckAlign = ContentAlignment.MiddleCenter
         CheckBox58.FlatAppearance.CheckedBackColor = Color.DeepSkyBlue
         CheckBox58.FlatAppearance.MouseOverBackColor = Color.DeepSkyBlue
@@ -916,7 +916,7 @@ Partial Class FormDylan
         ' CheckBox49
         ' 
         CheckBox49.Appearance = Appearance.Button
-        CheckBox49.BackColor = Color.MediumSeaGreen
+        CheckBox49.BackColor = Color.Gray
         CheckBox49.CheckAlign = ContentAlignment.MiddleCenter
         CheckBox49.FlatAppearance.CheckedBackColor = Color.DeepSkyBlue
         CheckBox49.FlatAppearance.MouseDownBackColor = Color.White
@@ -933,7 +933,7 @@ Partial Class FormDylan
         ' CheckBox50
         ' 
         CheckBox50.Appearance = Appearance.Button
-        CheckBox50.BackColor = Color.MediumSeaGreen
+        CheckBox50.BackColor = Color.Gray
         CheckBox50.CheckAlign = ContentAlignment.MiddleCenter
         CheckBox50.FlatAppearance.CheckedBackColor = Color.DeepSkyBlue
         CheckBox50.FlatAppearance.MouseDownBackColor = Color.White
@@ -1015,7 +1015,7 @@ Partial Class FormDylan
         ' CheckBox31
         ' 
         CheckBox31.Appearance = Appearance.Button
-        CheckBox31.BackColor = Color.MediumSeaGreen
+        CheckBox31.BackColor = Color.Gray
         CheckBox31.CheckAlign = ContentAlignment.MiddleCenter
         CheckBox31.FlatAppearance.CheckedBackColor = Color.DeepSkyBlue
         CheckBox31.FlatAppearance.MouseDownBackColor = Color.White
@@ -1032,7 +1032,7 @@ Partial Class FormDylan
         ' CheckBox32
         ' 
         CheckBox32.Appearance = Appearance.Button
-        CheckBox32.BackColor = Color.MediumSeaGreen
+        CheckBox32.BackColor = Color.Gray
         CheckBox32.CheckAlign = ContentAlignment.MiddleCenter
         CheckBox32.FlatAppearance.CheckedBackColor = Color.DeepSkyBlue
         CheckBox32.FlatAppearance.MouseDownBackColor = Color.White
@@ -1114,7 +1114,7 @@ Partial Class FormDylan
         ' CheckBox25
         ' 
         CheckBox25.Appearance = Appearance.Button
-        CheckBox25.BackColor = Color.MediumSeaGreen
+        CheckBox25.BackColor = Color.Gray
         CheckBox25.CheckAlign = ContentAlignment.MiddleCenter
         CheckBox25.FlatAppearance.CheckedBackColor = Color.DeepSkyBlue
         CheckBox25.FlatAppearance.MouseDownBackColor = Color.White
@@ -1197,7 +1197,7 @@ Partial Class FormDylan
         ' CheckBox30
         ' 
         CheckBox30.Appearance = Appearance.Button
-        CheckBox30.BackColor = Color.MediumSeaGreen
+        CheckBox30.BackColor = Color.Gray
         CheckBox30.CheckAlign = ContentAlignment.MiddleCenter
         CheckBox30.FlatAppearance.CheckedBackColor = Color.DeepSkyBlue
         CheckBox30.FlatAppearance.MouseOverBackColor = Color.DeepSkyBlue
@@ -1230,7 +1230,7 @@ Partial Class FormDylan
         ' CheckBox20
         ' 
         CheckBox20.Appearance = Appearance.Button
-        CheckBox20.BackColor = Color.MediumSeaGreen
+        CheckBox20.BackColor = Color.Gray
         CheckBox20.CheckAlign = ContentAlignment.MiddleCenter
         CheckBox20.FlatAppearance.CheckedBackColor = Color.DeepSkyBlue
         CheckBox20.FlatAppearance.MouseDownBackColor = Color.White
@@ -1280,7 +1280,7 @@ Partial Class FormDylan
         ' CheckBox23
         ' 
         CheckBox23.Appearance = Appearance.Button
-        CheckBox23.BackColor = Color.MediumSeaGreen
+        CheckBox23.BackColor = Color.Gray
         CheckBox23.CheckAlign = ContentAlignment.MiddleCenter
         CheckBox23.FlatAppearance.CheckedBackColor = Color.DeepSkyBlue
         CheckBox23.FlatAppearance.MouseOverBackColor = Color.DeepSkyBlue
@@ -1296,7 +1296,7 @@ Partial Class FormDylan
         ' CheckBox24
         ' 
         CheckBox24.Appearance = Appearance.Button
-        CheckBox24.BackColor = Color.MediumSeaGreen
+        CheckBox24.BackColor = Color.Gray
         CheckBox24.CheckAlign = ContentAlignment.MiddleCenter
         CheckBox24.FlatAppearance.CheckedBackColor = Color.DeepSkyBlue
         CheckBox24.FlatAppearance.MouseOverBackColor = Color.DeepSkyBlue
@@ -1312,7 +1312,7 @@ Partial Class FormDylan
         ' CheckBox7
         ' 
         CheckBox7.Appearance = Appearance.Button
-        CheckBox7.BackColor = Color.MediumSeaGreen
+        CheckBox7.BackColor = Color.Gray
         CheckBox7.CheckAlign = ContentAlignment.MiddleCenter
         CheckBox7.FlatAppearance.CheckedBackColor = Color.DeepSkyBlue
         CheckBox7.FlatAppearance.MouseDownBackColor = Color.White
@@ -1329,7 +1329,7 @@ Partial Class FormDylan
         ' CheckBox6
         ' 
         CheckBox6.Appearance = Appearance.Button
-        CheckBox6.BackColor = Color.MediumSeaGreen
+        CheckBox6.BackColor = Color.Gray
         CheckBox6.CheckAlign = ContentAlignment.MiddleCenter
         CheckBox6.FlatAppearance.CheckedBackColor = Color.DeepSkyBlue
         CheckBox6.FlatAppearance.MouseDownBackColor = Color.White
@@ -1347,7 +1347,7 @@ Partial Class FormDylan
         ' CheckBox8
         ' 
         CheckBox8.Appearance = Appearance.Button
-        CheckBox8.BackColor = Color.MediumSeaGreen
+        CheckBox8.BackColor = Color.Gray
         CheckBox8.CheckAlign = ContentAlignment.MiddleCenter
         CheckBox8.FlatAppearance.CheckedBackColor = Color.DeepSkyBlue
         CheckBox8.FlatAppearance.MouseDownBackColor = Color.White
@@ -1364,7 +1364,7 @@ Partial Class FormDylan
         ' CheckBox5
         ' 
         CheckBox5.Appearance = Appearance.Button
-        CheckBox5.BackColor = Color.MediumSeaGreen
+        CheckBox5.BackColor = Color.Gray
         CheckBox5.CheckAlign = ContentAlignment.MiddleCenter
         CheckBox5.FlatAppearance.CheckedBackColor = Color.DeepSkyBlue
         CheckBox5.FlatAppearance.MouseDownBackColor = Color.White
@@ -1585,7 +1585,7 @@ Partial Class FormDylan
         ' CheckBox91
         ' 
         CheckBox91.Appearance = Appearance.Button
-        CheckBox91.BackColor = Color.MediumSeaGreen
+        CheckBox91.BackColor = Color.Gray
         CheckBox91.FlatAppearance.CheckedBackColor = Color.DeepSkyBlue
         CheckBox91.FlatAppearance.MouseOverBackColor = Color.DeepSkyBlue
         CheckBox91.FlatStyle = FlatStyle.Flat
@@ -1600,7 +1600,7 @@ Partial Class FormDylan
         ' CheckBox92
         ' 
         CheckBox92.Appearance = Appearance.Button
-        CheckBox92.BackColor = Color.MediumSeaGreen
+        CheckBox92.BackColor = Color.Gray
         CheckBox92.FlatAppearance.CheckedBackColor = Color.DeepSkyBlue
         CheckBox92.FlatAppearance.MouseOverBackColor = Color.DeepSkyBlue
         CheckBox92.FlatStyle = FlatStyle.Flat
