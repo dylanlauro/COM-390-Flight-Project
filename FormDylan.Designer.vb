@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
-Partial Class Form1
+Partial Class FormDylan
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -22,8 +22,22 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(FormDylan))
         GroupBox1 = New GroupBox()
+        CheckBox91 = New CheckBox()
+        CheckBox92 = New CheckBox()
+        CheckBox93 = New CheckBox()
+        CheckBox94 = New CheckBox()
+        CheckBox95 = New CheckBox()
+        CheckBox96 = New CheckBox()
+        CheckBox97 = New CheckBox()
+        CheckBox98 = New CheckBox()
+        CheckBox99 = New CheckBox()
+        CheckBox100 = New CheckBox()
+        CheckBox101 = New CheckBox()
+        CheckBox102 = New CheckBox()
+        Label15 = New Label()
+        Label16 = New Label()
         Label12 = New Label()
         Label11 = New Label()
         Label10 = New Label()
@@ -125,6 +139,20 @@ Partial Class Form1
         GroupBox1.BackgroundImage = CType(resources.GetObject("GroupBox1.BackgroundImage"), Image)
         GroupBox1.BackgroundImageLayout = ImageLayout.Stretch
         GroupBox1.Controls.Add(SeatLegend)
+        GroupBox1.Controls.Add(CheckBox91)
+        GroupBox1.Controls.Add(CheckBox92)
+        GroupBox1.Controls.Add(CheckBox93)
+        GroupBox1.Controls.Add(CheckBox94)
+        GroupBox1.Controls.Add(CheckBox95)
+        GroupBox1.Controls.Add(CheckBox96)
+        GroupBox1.Controls.Add(CheckBox97)
+        GroupBox1.Controls.Add(CheckBox98)
+        GroupBox1.Controls.Add(CheckBox99)
+        GroupBox1.Controls.Add(CheckBox100)
+        GroupBox1.Controls.Add(CheckBox101)
+        GroupBox1.Controls.Add(CheckBox102)
+        GroupBox1.Controls.Add(Label15)
+        GroupBox1.Controls.Add(Label16)
         GroupBox1.Controls.Add(Label12)
         GroupBox1.Controls.Add(Label11)
         GroupBox1.Controls.Add(Label10)
@@ -218,122 +246,122 @@ Partial Class Form1
         ' 
         ' Label12
         ' 
-        Label12.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Label12.Location = New Point(335, 955)
+        Label12.Font = New Font("Segoe UI", 8F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label12.Location = New Point(333, 835)
         Label12.Name = "Label12"
-        Label12.Size = New Size(20, 34)
+        Label12.Size = New Size(24, 20)
         Label12.TabIndex = 101
-        Label12.Text = "12"
+        Label12.Text = "25"
         Label12.TextAlign = ContentAlignment.MiddleCenter
         ' 
         ' Label11
         ' 
-        Label11.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Label11.Location = New Point(335, 885)
+        Label11.Font = New Font("Segoe UI", 8F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label11.Location = New Point(333, 728)
         Label11.Name = "Label11"
-        Label11.Size = New Size(20, 34)
+        Label11.Size = New Size(24, 20)
         Label11.TabIndex = 100
-        Label11.Text = "11"
+        Label11.Text = "24"
         Label11.TextAlign = ContentAlignment.MiddleCenter
         ' 
         ' Label10
         ' 
-        Label10.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Label10.Location = New Point(335, 820)
+        Label10.Font = New Font("Segoe UI", 8F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label10.Location = New Point(333, 672)
         Label10.Name = "Label10"
-        Label10.Size = New Size(20, 34)
+        Label10.Size = New Size(24, 20)
         Label10.TabIndex = 99
-        Label10.Text = "10"
+        Label10.Text = "23"
         Label10.TextAlign = ContentAlignment.MiddleCenter
         ' 
         ' Label9
         ' 
-        Label9.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Label9.Location = New Point(335, 229)
+        Label9.Font = New Font("Segoe UI", 8F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label9.Location = New Point(333, 234)
         Label9.Name = "Label9"
-        Label9.Size = New Size(20, 20)
+        Label9.Size = New Size(24, 20)
         Label9.TabIndex = 98
-        Label9.Text = "3"
+        Label9.Text = "16"
         Label9.TextAlign = ContentAlignment.MiddleCenter
         ' 
         ' Label8
         ' 
-        Label8.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Label8.Location = New Point(335, 320)
+        Label8.Font = New Font("Segoe UI", 8F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label8.Location = New Point(333, 290)
         Label8.Name = "Label8"
-        Label8.Size = New Size(20, 20)
+        Label8.Size = New Size(24, 20)
         Label8.TabIndex = 97
-        Label8.Text = "4"
+        Label8.Text = "17"
         Label8.TextAlign = ContentAlignment.MiddleCenter
         ' 
         ' Label7
         ' 
-        Label7.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Label7.Location = New Point(335, 400)
+        Label7.Font = New Font("Segoe UI", 8F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label7.Location = New Point(333, 346)
         Label7.Name = "Label7"
-        Label7.Size = New Size(20, 20)
+        Label7.Size = New Size(24, 20)
         Label7.TabIndex = 96
-        Label7.Text = "5"
+        Label7.Text = "18"
         Label7.TextAlign = ContentAlignment.MiddleCenter
         ' 
         ' Label6
         ' 
-        Label6.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Label6.Location = New Point(335, 575)
+        Label6.Font = New Font("Segoe UI", 8F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label6.Location = New Point(333, 504)
         Label6.Name = "Label6"
-        Label6.Size = New Size(20, 20)
+        Label6.Size = New Size(24, 20)
         Label6.TabIndex = 95
-        Label6.Text = "7"
+        Label6.Text = "20"
         Label6.TextAlign = ContentAlignment.MiddleCenter
         ' 
         ' Label5
         ' 
-        Label5.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Label5.Location = New Point(335, 650)
+        Label5.Font = New Font("Segoe UI", 8F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label5.Location = New Point(333, 560)
         Label5.Name = "Label5"
-        Label5.Size = New Size(20, 20)
+        Label5.Size = New Size(24, 20)
         Label5.TabIndex = 94
-        Label5.Text = "8"
+        Label5.Text = "21"
         Label5.TextAlign = ContentAlignment.MiddleCenter
         ' 
         ' Label4
         ' 
-        Label4.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Label4.Location = New Point(335, 502)
+        Label4.Font = New Font("Segoe UI", 8F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label4.Location = New Point(333, 402)
         Label4.Name = "Label4"
-        Label4.Size = New Size(20, 20)
+        Label4.Size = New Size(24, 20)
         Label4.TabIndex = 93
-        Label4.Text = "6"
+        Label4.Text = "19"
         Label4.TextAlign = ContentAlignment.MiddleCenter
         ' 
         ' Label3
         ' 
-        Label3.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Label3.Location = New Point(335, 725)
+        Label3.Font = New Font("Segoe UI", 8F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label3.Location = New Point(333, 616)
         Label3.Name = "Label3"
-        Label3.Size = New Size(20, 20)
+        Label3.Size = New Size(24, 20)
         Label3.TabIndex = 92
-        Label3.Text = "9"
+        Label3.Text = "22"
         Label3.TextAlign = ContentAlignment.MiddleCenter
         ' 
         ' Label2
         ' 
-        Label2.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Label2.Location = New Point(335, 110)
+        Label2.Font = New Font("Segoe UI", 8F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label2.Location = New Point(333, 99)
         Label2.Name = "Label2"
-        Label2.Size = New Size(20, 20)
+        Label2.Size = New Size(24, 20)
         Label2.TabIndex = 91
-        Label2.Text = "2"
+        Label2.Text = "15"
         Label2.TextAlign = ContentAlignment.MiddleCenter
         ' 
         ' Label1
         ' 
-        Label1.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Label1.Location = New Point(335, 35)
+        Label1.Font = New Font("Segoe UI", 8F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label1.Location = New Point(333, 43)
         Label1.Name = "Label1"
-        Label1.Size = New Size(20, 20)
+        Label1.Size = New Size(24, 20)
         Label1.TabIndex = 90
-        Label1.Text = "1"
+        Label1.Text = "14"
         Label1.TextAlign = ContentAlignment.MiddleCenter
         ' 
         ' CheckBox79
@@ -343,7 +371,7 @@ Partial Class Form1
         CheckBox79.FlatAppearance.CheckedBackColor = Color.DeepSkyBlue
         CheckBox79.FlatAppearance.MouseOverBackColor = Color.DeepSkyBlue
         CheckBox79.FlatStyle = FlatStyle.Flat
-        CheckBox79.Location = New Point(410, 949)
+        CheckBox79.Location = New Point(410, 822)
         CheckBox79.Name = "CheckBox79"
         CheckBox79.Size = New Size(46, 46)
         CheckBox79.TabIndex = 89
@@ -358,7 +386,7 @@ Partial Class Form1
         CheckBox80.FlatAppearance.CheckedBackColor = Color.DeepSkyBlue
         CheckBox80.FlatAppearance.MouseOverBackColor = Color.DeepSkyBlue
         CheckBox80.FlatStyle = FlatStyle.Flat
-        CheckBox80.Location = New Point(462, 949)
+        CheckBox80.Location = New Point(462, 822)
         CheckBox80.Name = "CheckBox80"
         CheckBox80.Size = New Size(46, 46)
         CheckBox80.TabIndex = 88
@@ -373,7 +401,7 @@ Partial Class Form1
         CheckBox81.FlatAppearance.CheckedBackColor = Color.DeepSkyBlue
         CheckBox81.FlatAppearance.MouseOverBackColor = Color.DeepSkyBlue
         CheckBox81.FlatStyle = FlatStyle.Flat
-        CheckBox81.Location = New Point(358, 949)
+        CheckBox81.Location = New Point(358, 822)
         CheckBox81.Name = "CheckBox81"
         CheckBox81.Size = New Size(46, 46)
         CheckBox81.TabIndex = 87
@@ -386,7 +414,7 @@ Partial Class Form1
         CheckBox82.Appearance = Appearance.Button
         CheckBox82.BackColor = Color.Gray
         CheckBox82.FlatStyle = FlatStyle.Flat
-        CheckBox82.Location = New Point(287, 949)
+        CheckBox82.Location = New Point(287, 822)
         CheckBox82.Name = "CheckBox82"
         CheckBox82.Size = New Size(46, 46)
         CheckBox82.TabIndex = 86
@@ -399,7 +427,7 @@ Partial Class Form1
         CheckBox83.Appearance = Appearance.Button
         CheckBox83.BackColor = Color.Gray
         CheckBox83.FlatStyle = FlatStyle.Flat
-        CheckBox83.Location = New Point(235, 949)
+        CheckBox83.Location = New Point(235, 822)
         CheckBox83.Name = "CheckBox83"
         CheckBox83.Size = New Size(46, 46)
         CheckBox83.TabIndex = 85
@@ -412,7 +440,7 @@ Partial Class Form1
         CheckBox84.Appearance = Appearance.Button
         CheckBox84.BackColor = Color.Gray
         CheckBox84.FlatStyle = FlatStyle.Flat
-        CheckBox84.Location = New Point(183, 949)
+        CheckBox84.Location = New Point(183, 822)
         CheckBox84.Name = "CheckBox84"
         CheckBox84.Size = New Size(46, 46)
         CheckBox84.TabIndex = 84
@@ -427,7 +455,7 @@ Partial Class Form1
         CheckBox85.FlatAppearance.CheckedBackColor = Color.DeepSkyBlue
         CheckBox85.FlatAppearance.MouseOverBackColor = Color.DeepSkyBlue
         CheckBox85.FlatStyle = FlatStyle.Flat
-        CheckBox85.Location = New Point(410, 880)
+        CheckBox85.Location = New Point(410, 715)
         CheckBox85.Name = "CheckBox85"
         CheckBox85.Size = New Size(46, 46)
         CheckBox85.TabIndex = 83
@@ -442,7 +470,7 @@ Partial Class Form1
         CheckBox86.FlatAppearance.CheckedBackColor = Color.DeepSkyBlue
         CheckBox86.FlatAppearance.MouseOverBackColor = Color.DeepSkyBlue
         CheckBox86.FlatStyle = FlatStyle.Flat
-        CheckBox86.Location = New Point(462, 880)
+        CheckBox86.Location = New Point(462, 715)
         CheckBox86.Name = "CheckBox86"
         CheckBox86.Size = New Size(46, 46)
         CheckBox86.TabIndex = 82
@@ -453,11 +481,11 @@ Partial Class Form1
         ' CheckBox87
         ' 
         CheckBox87.Appearance = Appearance.Button
-        CheckBox87.BackColor = Color.MediumSeaGreen
+        CheckBox87.BackColor = Color.Gray
         CheckBox87.FlatAppearance.CheckedBackColor = Color.DeepSkyBlue
         CheckBox87.FlatAppearance.MouseOverBackColor = Color.DeepSkyBlue
         CheckBox87.FlatStyle = FlatStyle.Flat
-        CheckBox87.Location = New Point(358, 880)
+        CheckBox87.Location = New Point(358, 715)
         CheckBox87.Name = "CheckBox87"
         CheckBox87.Size = New Size(46, 46)
         CheckBox87.TabIndex = 81
@@ -468,9 +496,9 @@ Partial Class Form1
         ' CheckBox88
         ' 
         CheckBox88.Appearance = Appearance.Button
-        CheckBox88.BackColor = Color.MediumSeaGreen
+        CheckBox88.BackColor = Color.Gray
         CheckBox88.FlatStyle = FlatStyle.Flat
-        CheckBox88.Location = New Point(287, 880)
+        CheckBox88.Location = New Point(287, 715)
         CheckBox88.Name = "CheckBox88"
         CheckBox88.Size = New Size(46, 46)
         CheckBox88.TabIndex = 80
@@ -483,7 +511,7 @@ Partial Class Form1
         CheckBox89.Appearance = Appearance.Button
         CheckBox89.BackColor = Color.MediumSeaGreen
         CheckBox89.FlatStyle = FlatStyle.Flat
-        CheckBox89.Location = New Point(235, 880)
+        CheckBox89.Location = New Point(235, 715)
         CheckBox89.Name = "CheckBox89"
         CheckBox89.Size = New Size(46, 46)
         CheckBox89.TabIndex = 79
@@ -496,7 +524,7 @@ Partial Class Form1
         CheckBox90.Appearance = Appearance.Button
         CheckBox90.BackColor = Color.MediumSeaGreen
         CheckBox90.FlatStyle = FlatStyle.Flat
-        CheckBox90.Location = New Point(183, 880)
+        CheckBox90.Location = New Point(183, 715)
         CheckBox90.Name = "CheckBox90"
         CheckBox90.Size = New Size(46, 46)
         CheckBox90.TabIndex = 78
@@ -511,7 +539,7 @@ Partial Class Form1
         CheckBox67.FlatAppearance.CheckedBackColor = Color.DeepSkyBlue
         CheckBox67.FlatAppearance.MouseOverBackColor = Color.DeepSkyBlue
         CheckBox67.FlatStyle = FlatStyle.Flat
-        CheckBox67.Location = New Point(410, 814)
+        CheckBox67.Location = New Point(410, 659)
         CheckBox67.Name = "CheckBox67"
         CheckBox67.Size = New Size(46, 46)
         CheckBox67.TabIndex = 77
@@ -526,7 +554,7 @@ Partial Class Form1
         CheckBox68.FlatAppearance.CheckedBackColor = Color.DeepSkyBlue
         CheckBox68.FlatAppearance.MouseOverBackColor = Color.DeepSkyBlue
         CheckBox68.FlatStyle = FlatStyle.Flat
-        CheckBox68.Location = New Point(462, 814)
+        CheckBox68.Location = New Point(462, 659)
         CheckBox68.Name = "CheckBox68"
         CheckBox68.Size = New Size(46, 46)
         CheckBox68.TabIndex = 76
@@ -537,11 +565,11 @@ Partial Class Form1
         ' CheckBox69
         ' 
         CheckBox69.Appearance = Appearance.Button
-        CheckBox69.BackColor = Color.MediumSeaGreen
+        CheckBox69.BackColor = Color.Gray
         CheckBox69.FlatAppearance.CheckedBackColor = Color.DeepSkyBlue
         CheckBox69.FlatAppearance.MouseOverBackColor = Color.DeepSkyBlue
         CheckBox69.FlatStyle = FlatStyle.Flat
-        CheckBox69.Location = New Point(358, 814)
+        CheckBox69.Location = New Point(358, 659)
         CheckBox69.Name = "CheckBox69"
         CheckBox69.Size = New Size(46, 46)
         CheckBox69.TabIndex = 75
@@ -552,9 +580,9 @@ Partial Class Form1
         ' CheckBox70
         ' 
         CheckBox70.Appearance = Appearance.Button
-        CheckBox70.BackColor = Color.MediumSeaGreen
+        CheckBox70.BackColor = Color.Gray
         CheckBox70.FlatStyle = FlatStyle.Flat
-        CheckBox70.Location = New Point(287, 814)
+        CheckBox70.Location = New Point(287, 659)
         CheckBox70.Name = "CheckBox70"
         CheckBox70.Size = New Size(46, 46)
         CheckBox70.TabIndex = 74
@@ -565,9 +593,9 @@ Partial Class Form1
         ' CheckBox71
         ' 
         CheckBox71.Appearance = Appearance.Button
-        CheckBox71.BackColor = Color.MediumSeaGreen
+        CheckBox71.BackColor = Color.Gray
         CheckBox71.FlatStyle = FlatStyle.Flat
-        CheckBox71.Location = New Point(235, 814)
+        CheckBox71.Location = New Point(235, 659)
         CheckBox71.Name = "CheckBox71"
         CheckBox71.Size = New Size(46, 46)
         CheckBox71.TabIndex = 73
@@ -578,9 +606,9 @@ Partial Class Form1
         ' CheckBox72
         ' 
         CheckBox72.Appearance = Appearance.Button
-        CheckBox72.BackColor = Color.MediumSeaGreen
+        CheckBox72.BackColor = Color.Gray
         CheckBox72.FlatStyle = FlatStyle.Flat
-        CheckBox72.Location = New Point(183, 814)
+        CheckBox72.Location = New Point(183, 659)
         CheckBox72.Name = "CheckBox72"
         CheckBox72.Size = New Size(46, 46)
         CheckBox72.TabIndex = 72
@@ -597,7 +625,7 @@ Partial Class Form1
         CheckBox55.FlatAppearance.MouseDownBackColor = Color.White
         CheckBox55.FlatAppearance.MouseOverBackColor = Color.DeepSkyBlue
         CheckBox55.FlatStyle = FlatStyle.Flat
-        CheckBox55.Location = New Point(410, 714)
+        CheckBox55.Location = New Point(410, 603)
         CheckBox55.Name = "CheckBox55"
         CheckBox55.Size = New Size(46, 46)
         CheckBox55.TabIndex = 65
@@ -614,7 +642,7 @@ Partial Class Form1
         CheckBox56.FlatAppearance.MouseDownBackColor = Color.White
         CheckBox56.FlatAppearance.MouseOverBackColor = Color.DeepSkyBlue
         CheckBox56.FlatStyle = FlatStyle.Flat
-        CheckBox56.Location = New Point(462, 714)
+        CheckBox56.Location = New Point(462, 603)
         CheckBox56.Name = "CheckBox56"
         CheckBox56.Size = New Size(46, 46)
         CheckBox56.TabIndex = 64
@@ -625,13 +653,13 @@ Partial Class Form1
         ' CheckBox57
         ' 
         CheckBox57.Appearance = Appearance.Button
-        CheckBox57.BackColor = Color.MediumSeaGreen
+        CheckBox57.BackColor = Color.Gray
         CheckBox57.CheckAlign = ContentAlignment.MiddleCenter
         CheckBox57.FlatAppearance.CheckedBackColor = Color.DeepSkyBlue
         CheckBox57.FlatAppearance.MouseDownBackColor = Color.White
         CheckBox57.FlatAppearance.MouseOverBackColor = Color.DeepSkyBlue
         CheckBox57.FlatStyle = FlatStyle.Flat
-        CheckBox57.Location = New Point(358, 714)
+        CheckBox57.Location = New Point(358, 603)
         CheckBox57.Name = "CheckBox57"
         CheckBox57.Size = New Size(46, 46)
         CheckBox57.TabIndex = 63
@@ -642,12 +670,12 @@ Partial Class Form1
         ' CheckBox58
         ' 
         CheckBox58.Appearance = Appearance.Button
-        CheckBox58.BackColor = Color.MediumSeaGreen
+        CheckBox58.BackColor = Color.Gray
         CheckBox58.CheckAlign = ContentAlignment.MiddleCenter
         CheckBox58.FlatAppearance.CheckedBackColor = Color.DeepSkyBlue
         CheckBox58.FlatAppearance.MouseOverBackColor = Color.DeepSkyBlue
         CheckBox58.FlatStyle = FlatStyle.Flat
-        CheckBox58.Location = New Point(287, 714)
+        CheckBox58.Location = New Point(287, 603)
         CheckBox58.Name = "CheckBox58"
         CheckBox58.Size = New Size(46, 46)
         CheckBox58.TabIndex = 62
@@ -663,7 +691,7 @@ Partial Class Form1
         CheckBox59.FlatAppearance.CheckedBackColor = Color.DeepSkyBlue
         CheckBox59.FlatAppearance.MouseOverBackColor = Color.DeepSkyBlue
         CheckBox59.FlatStyle = FlatStyle.Flat
-        CheckBox59.Location = New Point(235, 714)
+        CheckBox59.Location = New Point(235, 603)
         CheckBox59.Name = "CheckBox59"
         CheckBox59.Size = New Size(46, 46)
         CheckBox59.TabIndex = 61
@@ -679,7 +707,7 @@ Partial Class Form1
         CheckBox60.FlatAppearance.CheckedBackColor = Color.DeepSkyBlue
         CheckBox60.FlatAppearance.MouseOverBackColor = Color.DeepSkyBlue
         CheckBox60.FlatStyle = FlatStyle.Flat
-        CheckBox60.Location = New Point(183, 714)
+        CheckBox60.Location = New Point(183, 603)
         CheckBox60.Name = "CheckBox60"
         CheckBox60.Size = New Size(46, 46)
         CheckBox60.TabIndex = 60
@@ -690,13 +718,13 @@ Partial Class Form1
         ' CheckBox61
         ' 
         CheckBox61.Appearance = Appearance.Button
-        CheckBox61.BackColor = Color.Gray
+        CheckBox61.BackColor = Color.MediumSeaGreen
         CheckBox61.CheckAlign = ContentAlignment.MiddleCenter
         CheckBox61.FlatAppearance.CheckedBackColor = Color.DeepSkyBlue
         CheckBox61.FlatAppearance.MouseDownBackColor = Color.White
         CheckBox61.FlatAppearance.MouseOverBackColor = Color.DeepSkyBlue
         CheckBox61.FlatStyle = FlatStyle.Flat
-        CheckBox61.Location = New Point(410, 637)
+        CheckBox61.Location = New Point(410, 547)
         CheckBox61.Name = "CheckBox61"
         CheckBox61.Size = New Size(46, 46)
         CheckBox61.TabIndex = 59
@@ -707,13 +735,13 @@ Partial Class Form1
         ' CheckBox62
         ' 
         CheckBox62.Appearance = Appearance.Button
-        CheckBox62.BackColor = Color.Gray
+        CheckBox62.BackColor = Color.MediumSeaGreen
         CheckBox62.CheckAlign = ContentAlignment.MiddleCenter
         CheckBox62.FlatAppearance.CheckedBackColor = Color.DeepSkyBlue
         CheckBox62.FlatAppearance.MouseDownBackColor = Color.White
         CheckBox62.FlatAppearance.MouseOverBackColor = Color.DeepSkyBlue
         CheckBox62.FlatStyle = FlatStyle.Flat
-        CheckBox62.Location = New Point(462, 637)
+        CheckBox62.Location = New Point(462, 547)
         CheckBox62.Name = "CheckBox62"
         CheckBox62.Size = New Size(46, 46)
         CheckBox62.TabIndex = 58
@@ -730,7 +758,7 @@ Partial Class Form1
         CheckBox63.FlatAppearance.MouseDownBackColor = Color.White
         CheckBox63.FlatAppearance.MouseOverBackColor = Color.DeepSkyBlue
         CheckBox63.FlatStyle = FlatStyle.Flat
-        CheckBox63.Location = New Point(358, 637)
+        CheckBox63.Location = New Point(358, 547)
         CheckBox63.Name = "CheckBox63"
         CheckBox63.Size = New Size(46, 46)
         CheckBox63.TabIndex = 57
@@ -741,12 +769,12 @@ Partial Class Form1
         ' CheckBox64
         ' 
         CheckBox64.Appearance = Appearance.Button
-        CheckBox64.BackColor = Color.MediumSeaGreen
+        CheckBox64.BackColor = Color.Gray
         CheckBox64.CheckAlign = ContentAlignment.MiddleCenter
         CheckBox64.FlatAppearance.CheckedBackColor = Color.DeepSkyBlue
         CheckBox64.FlatAppearance.MouseOverBackColor = Color.DeepSkyBlue
         CheckBox64.FlatStyle = FlatStyle.Flat
-        CheckBox64.Location = New Point(287, 637)
+        CheckBox64.Location = New Point(287, 547)
         CheckBox64.Name = "CheckBox64"
         CheckBox64.Size = New Size(46, 46)
         CheckBox64.TabIndex = 56
@@ -762,7 +790,7 @@ Partial Class Form1
         CheckBox65.FlatAppearance.CheckedBackColor = Color.DeepSkyBlue
         CheckBox65.FlatAppearance.MouseOverBackColor = Color.DeepSkyBlue
         CheckBox65.FlatStyle = FlatStyle.Flat
-        CheckBox65.Location = New Point(235, 637)
+        CheckBox65.Location = New Point(235, 547)
         CheckBox65.Name = "CheckBox65"
         CheckBox65.Size = New Size(46, 46)
         CheckBox65.TabIndex = 55
@@ -778,7 +806,7 @@ Partial Class Form1
         CheckBox66.FlatAppearance.CheckedBackColor = Color.DeepSkyBlue
         CheckBox66.FlatAppearance.MouseOverBackColor = Color.DeepSkyBlue
         CheckBox66.FlatStyle = FlatStyle.Flat
-        CheckBox66.Location = New Point(183, 637)
+        CheckBox66.Location = New Point(183, 547)
         CheckBox66.Name = "CheckBox66"
         CheckBox66.Size = New Size(46, 46)
         CheckBox66.TabIndex = 54
@@ -795,7 +823,7 @@ Partial Class Form1
         CheckBox37.FlatAppearance.MouseDownBackColor = Color.White
         CheckBox37.FlatAppearance.MouseOverBackColor = Color.DeepSkyBlue
         CheckBox37.FlatStyle = FlatStyle.Flat
-        CheckBox37.Location = New Point(410, 562)
+        CheckBox37.Location = New Point(410, 491)
         CheckBox37.Name = "CheckBox37"
         CheckBox37.Size = New Size(46, 46)
         CheckBox37.TabIndex = 53
@@ -812,7 +840,7 @@ Partial Class Form1
         CheckBox38.FlatAppearance.MouseDownBackColor = Color.White
         CheckBox38.FlatAppearance.MouseOverBackColor = Color.DeepSkyBlue
         CheckBox38.FlatStyle = FlatStyle.Flat
-        CheckBox38.Location = New Point(462, 562)
+        CheckBox38.Location = New Point(462, 491)
         CheckBox38.Name = "CheckBox38"
         CheckBox38.Size = New Size(46, 46)
         CheckBox38.TabIndex = 52
@@ -823,13 +851,13 @@ Partial Class Form1
         ' CheckBox39
         ' 
         CheckBox39.Appearance = Appearance.Button
-        CheckBox39.BackColor = Color.MediumSeaGreen
+        CheckBox39.BackColor = Color.Gray
         CheckBox39.CheckAlign = ContentAlignment.MiddleCenter
         CheckBox39.FlatAppearance.CheckedBackColor = Color.DeepSkyBlue
         CheckBox39.FlatAppearance.MouseDownBackColor = Color.White
         CheckBox39.FlatAppearance.MouseOverBackColor = Color.DeepSkyBlue
         CheckBox39.FlatStyle = FlatStyle.Flat
-        CheckBox39.Location = New Point(358, 562)
+        CheckBox39.Location = New Point(358, 491)
         CheckBox39.Name = "CheckBox39"
         CheckBox39.Size = New Size(46, 46)
         CheckBox39.TabIndex = 51
@@ -840,12 +868,12 @@ Partial Class Form1
         ' CheckBox40
         ' 
         CheckBox40.Appearance = Appearance.Button
-        CheckBox40.BackColor = Color.MediumSeaGreen
+        CheckBox40.BackColor = Color.Gray
         CheckBox40.CheckAlign = ContentAlignment.MiddleCenter
         CheckBox40.FlatAppearance.CheckedBackColor = Color.DeepSkyBlue
         CheckBox40.FlatAppearance.MouseOverBackColor = Color.DeepSkyBlue
         CheckBox40.FlatStyle = FlatStyle.Flat
-        CheckBox40.Location = New Point(287, 562)
+        CheckBox40.Location = New Point(287, 491)
         CheckBox40.Name = "CheckBox40"
         CheckBox40.Size = New Size(46, 46)
         CheckBox40.TabIndex = 50
@@ -856,12 +884,12 @@ Partial Class Form1
         ' CheckBox41
         ' 
         CheckBox41.Appearance = Appearance.Button
-        CheckBox41.BackColor = Color.MediumSeaGreen
+        CheckBox41.BackColor = Color.Gray
         CheckBox41.CheckAlign = ContentAlignment.MiddleCenter
         CheckBox41.FlatAppearance.CheckedBackColor = Color.DeepSkyBlue
         CheckBox41.FlatAppearance.MouseOverBackColor = Color.DeepSkyBlue
         CheckBox41.FlatStyle = FlatStyle.Flat
-        CheckBox41.Location = New Point(235, 562)
+        CheckBox41.Location = New Point(235, 491)
         CheckBox41.Name = "CheckBox41"
         CheckBox41.Size = New Size(46, 46)
         CheckBox41.TabIndex = 49
@@ -872,12 +900,12 @@ Partial Class Form1
         ' CheckBox42
         ' 
         CheckBox42.Appearance = Appearance.Button
-        CheckBox42.BackColor = Color.MediumSeaGreen
+        CheckBox42.BackColor = Color.Gray
         CheckBox42.CheckAlign = ContentAlignment.MiddleCenter
         CheckBox42.FlatAppearance.CheckedBackColor = Color.DeepSkyBlue
         CheckBox42.FlatAppearance.MouseOverBackColor = Color.DeepSkyBlue
         CheckBox42.FlatStyle = FlatStyle.Flat
-        CheckBox42.Location = New Point(183, 562)
+        CheckBox42.Location = New Point(183, 491)
         CheckBox42.Name = "CheckBox42"
         CheckBox42.Size = New Size(46, 46)
         CheckBox42.TabIndex = 48
@@ -888,13 +916,13 @@ Partial Class Form1
         ' CheckBox49
         ' 
         CheckBox49.Appearance = Appearance.Button
-        CheckBox49.BackColor = Color.MediumSeaGreen
+        CheckBox49.BackColor = Color.Gray
         CheckBox49.CheckAlign = ContentAlignment.MiddleCenter
         CheckBox49.FlatAppearance.CheckedBackColor = Color.DeepSkyBlue
         CheckBox49.FlatAppearance.MouseDownBackColor = Color.White
         CheckBox49.FlatAppearance.MouseOverBackColor = Color.DeepSkyBlue
         CheckBox49.FlatStyle = FlatStyle.Flat
-        CheckBox49.Location = New Point(410, 490)
+        CheckBox49.Location = New Point(410, 389)
         CheckBox49.Name = "CheckBox49"
         CheckBox49.Size = New Size(46, 46)
         CheckBox49.TabIndex = 41
@@ -905,13 +933,13 @@ Partial Class Form1
         ' CheckBox50
         ' 
         CheckBox50.Appearance = Appearance.Button
-        CheckBox50.BackColor = Color.MediumSeaGreen
+        CheckBox50.BackColor = Color.Gray
         CheckBox50.CheckAlign = ContentAlignment.MiddleCenter
         CheckBox50.FlatAppearance.CheckedBackColor = Color.DeepSkyBlue
         CheckBox50.FlatAppearance.MouseDownBackColor = Color.White
         CheckBox50.FlatAppearance.MouseOverBackColor = Color.DeepSkyBlue
         CheckBox50.FlatStyle = FlatStyle.Flat
-        CheckBox50.Location = New Point(462, 490)
+        CheckBox50.Location = New Point(462, 389)
         CheckBox50.Name = "CheckBox50"
         CheckBox50.Size = New Size(46, 46)
         CheckBox50.TabIndex = 40
@@ -922,13 +950,13 @@ Partial Class Form1
         ' CheckBox51
         ' 
         CheckBox51.Appearance = Appearance.Button
-        CheckBox51.BackColor = Color.MediumSeaGreen
+        CheckBox51.BackColor = Color.Gray
         CheckBox51.CheckAlign = ContentAlignment.MiddleCenter
         CheckBox51.FlatAppearance.CheckedBackColor = Color.DeepSkyBlue
         CheckBox51.FlatAppearance.MouseDownBackColor = Color.White
         CheckBox51.FlatAppearance.MouseOverBackColor = Color.DeepSkyBlue
         CheckBox51.FlatStyle = FlatStyle.Flat
-        CheckBox51.Location = New Point(358, 490)
+        CheckBox51.Location = New Point(358, 389)
         CheckBox51.Name = "CheckBox51"
         CheckBox51.Size = New Size(46, 46)
         CheckBox51.TabIndex = 39
@@ -939,12 +967,12 @@ Partial Class Form1
         ' CheckBox52
         ' 
         CheckBox52.Appearance = Appearance.Button
-        CheckBox52.BackColor = Color.MediumSeaGreen
+        CheckBox52.BackColor = Color.Gray
         CheckBox52.CheckAlign = ContentAlignment.MiddleCenter
         CheckBox52.FlatAppearance.CheckedBackColor = Color.DeepSkyBlue
         CheckBox52.FlatAppearance.MouseOverBackColor = Color.DeepSkyBlue
         CheckBox52.FlatStyle = FlatStyle.Flat
-        CheckBox52.Location = New Point(287, 490)
+        CheckBox52.Location = New Point(287, 389)
         CheckBox52.Name = "CheckBox52"
         CheckBox52.Size = New Size(46, 46)
         CheckBox52.TabIndex = 38
@@ -960,7 +988,7 @@ Partial Class Form1
         CheckBox53.FlatAppearance.CheckedBackColor = Color.DeepSkyBlue
         CheckBox53.FlatAppearance.MouseOverBackColor = Color.DeepSkyBlue
         CheckBox53.FlatStyle = FlatStyle.Flat
-        CheckBox53.Location = New Point(235, 490)
+        CheckBox53.Location = New Point(235, 389)
         CheckBox53.Name = "CheckBox53"
         CheckBox53.Size = New Size(46, 46)
         CheckBox53.TabIndex = 37
@@ -976,7 +1004,7 @@ Partial Class Form1
         CheckBox54.FlatAppearance.CheckedBackColor = Color.DeepSkyBlue
         CheckBox54.FlatAppearance.MouseOverBackColor = Color.DeepSkyBlue
         CheckBox54.FlatStyle = FlatStyle.Flat
-        CheckBox54.Location = New Point(183, 490)
+        CheckBox54.Location = New Point(183, 389)
         CheckBox54.Name = "CheckBox54"
         CheckBox54.Size = New Size(46, 46)
         CheckBox54.TabIndex = 36
@@ -987,13 +1015,13 @@ Partial Class Form1
         ' CheckBox31
         ' 
         CheckBox31.Appearance = Appearance.Button
-        CheckBox31.BackColor = Color.MediumSeaGreen
+        CheckBox31.BackColor = Color.Gray
         CheckBox31.CheckAlign = ContentAlignment.MiddleCenter
         CheckBox31.FlatAppearance.CheckedBackColor = Color.DeepSkyBlue
         CheckBox31.FlatAppearance.MouseDownBackColor = Color.White
         CheckBox31.FlatAppearance.MouseOverBackColor = Color.DeepSkyBlue
         CheckBox31.FlatStyle = FlatStyle.Flat
-        CheckBox31.Location = New Point(410, 310)
+        CheckBox31.Location = New Point(410, 277)
         CheckBox31.Name = "CheckBox31"
         CheckBox31.Size = New Size(46, 46)
         CheckBox31.TabIndex = 35
@@ -1004,13 +1032,13 @@ Partial Class Form1
         ' CheckBox32
         ' 
         CheckBox32.Appearance = Appearance.Button
-        CheckBox32.BackColor = Color.MediumSeaGreen
+        CheckBox32.BackColor = Color.Gray
         CheckBox32.CheckAlign = ContentAlignment.MiddleCenter
         CheckBox32.FlatAppearance.CheckedBackColor = Color.DeepSkyBlue
         CheckBox32.FlatAppearance.MouseDownBackColor = Color.White
         CheckBox32.FlatAppearance.MouseOverBackColor = Color.DeepSkyBlue
         CheckBox32.FlatStyle = FlatStyle.Flat
-        CheckBox32.Location = New Point(462, 310)
+        CheckBox32.Location = New Point(462, 277)
         CheckBox32.Name = "CheckBox32"
         CheckBox32.Size = New Size(46, 46)
         CheckBox32.TabIndex = 34
@@ -1021,13 +1049,13 @@ Partial Class Form1
         ' CheckBox33
         ' 
         CheckBox33.Appearance = Appearance.Button
-        CheckBox33.BackColor = Color.MediumSeaGreen
+        CheckBox33.BackColor = Color.Gray
         CheckBox33.CheckAlign = ContentAlignment.MiddleCenter
         CheckBox33.FlatAppearance.CheckedBackColor = Color.DeepSkyBlue
         CheckBox33.FlatAppearance.MouseDownBackColor = Color.White
         CheckBox33.FlatAppearance.MouseOverBackColor = Color.DeepSkyBlue
         CheckBox33.FlatStyle = FlatStyle.Flat
-        CheckBox33.Location = New Point(358, 310)
+        CheckBox33.Location = New Point(358, 277)
         CheckBox33.Name = "CheckBox33"
         CheckBox33.Size = New Size(46, 46)
         CheckBox33.TabIndex = 33
@@ -1038,12 +1066,12 @@ Partial Class Form1
         ' CheckBox34
         ' 
         CheckBox34.Appearance = Appearance.Button
-        CheckBox34.BackColor = Color.MediumSeaGreen
+        CheckBox34.BackColor = Color.Gray
         CheckBox34.CheckAlign = ContentAlignment.MiddleCenter
         CheckBox34.FlatAppearance.CheckedBackColor = Color.DeepSkyBlue
         CheckBox34.FlatAppearance.MouseOverBackColor = Color.DeepSkyBlue
         CheckBox34.FlatStyle = FlatStyle.Flat
-        CheckBox34.Location = New Point(287, 310)
+        CheckBox34.Location = New Point(287, 277)
         CheckBox34.Name = "CheckBox34"
         CheckBox34.Size = New Size(46, 46)
         CheckBox34.TabIndex = 32
@@ -1059,7 +1087,7 @@ Partial Class Form1
         CheckBox35.FlatAppearance.CheckedBackColor = Color.DeepSkyBlue
         CheckBox35.FlatAppearance.MouseOverBackColor = Color.DeepSkyBlue
         CheckBox35.FlatStyle = FlatStyle.Flat
-        CheckBox35.Location = New Point(235, 310)
+        CheckBox35.Location = New Point(235, 277)
         CheckBox35.Name = "CheckBox35"
         CheckBox35.Size = New Size(46, 46)
         CheckBox35.TabIndex = 31
@@ -1075,7 +1103,7 @@ Partial Class Form1
         CheckBox36.FlatAppearance.CheckedBackColor = Color.DeepSkyBlue
         CheckBox36.FlatAppearance.MouseOverBackColor = Color.DeepSkyBlue
         CheckBox36.FlatStyle = FlatStyle.Flat
-        CheckBox36.Location = New Point(183, 310)
+        CheckBox36.Location = New Point(183, 277)
         CheckBox36.Name = "CheckBox36"
         CheckBox36.Size = New Size(46, 46)
         CheckBox36.TabIndex = 30
@@ -1086,13 +1114,13 @@ Partial Class Form1
         ' CheckBox25
         ' 
         CheckBox25.Appearance = Appearance.Button
-        CheckBox25.BackColor = Color.MediumSeaGreen
+        CheckBox25.BackColor = Color.Gray
         CheckBox25.CheckAlign = ContentAlignment.MiddleCenter
         CheckBox25.FlatAppearance.CheckedBackColor = Color.DeepSkyBlue
         CheckBox25.FlatAppearance.MouseDownBackColor = Color.White
         CheckBox25.FlatAppearance.MouseOverBackColor = Color.DeepSkyBlue
         CheckBox25.FlatStyle = FlatStyle.Flat
-        CheckBox25.Location = New Point(410, 217)
+        CheckBox25.Location = New Point(410, 221)
         CheckBox25.Name = "CheckBox25"
         CheckBox25.Size = New Size(46, 46)
         CheckBox25.TabIndex = 29
@@ -1109,7 +1137,7 @@ Partial Class Form1
         CheckBox26.FlatAppearance.MouseDownBackColor = Color.White
         CheckBox26.FlatAppearance.MouseOverBackColor = Color.DeepSkyBlue
         CheckBox26.FlatStyle = FlatStyle.Flat
-        CheckBox26.Location = New Point(462, 217)
+        CheckBox26.Location = New Point(462, 221)
         CheckBox26.Name = "CheckBox26"
         CheckBox26.Size = New Size(46, 46)
         CheckBox26.TabIndex = 28
@@ -1120,13 +1148,13 @@ Partial Class Form1
         ' CheckBox27
         ' 
         CheckBox27.Appearance = Appearance.Button
-        CheckBox27.BackColor = Color.MediumSeaGreen
+        CheckBox27.BackColor = Color.Gray
         CheckBox27.CheckAlign = ContentAlignment.MiddleCenter
         CheckBox27.FlatAppearance.CheckedBackColor = Color.DeepSkyBlue
         CheckBox27.FlatAppearance.MouseDownBackColor = Color.White
         CheckBox27.FlatAppearance.MouseOverBackColor = Color.DeepSkyBlue
         CheckBox27.FlatStyle = FlatStyle.Flat
-        CheckBox27.Location = New Point(358, 217)
+        CheckBox27.Location = New Point(358, 221)
         CheckBox27.Name = "CheckBox27"
         CheckBox27.Size = New Size(46, 46)
         CheckBox27.TabIndex = 27
@@ -1142,7 +1170,7 @@ Partial Class Form1
         CheckBox28.FlatAppearance.CheckedBackColor = Color.DeepSkyBlue
         CheckBox28.FlatAppearance.MouseOverBackColor = Color.DeepSkyBlue
         CheckBox28.FlatStyle = FlatStyle.Flat
-        CheckBox28.Location = New Point(287, 217)
+        CheckBox28.Location = New Point(287, 221)
         CheckBox28.Name = "CheckBox28"
         CheckBox28.Size = New Size(46, 46)
         CheckBox28.TabIndex = 26
@@ -1158,7 +1186,7 @@ Partial Class Form1
         CheckBox29.FlatAppearance.CheckedBackColor = Color.DeepSkyBlue
         CheckBox29.FlatAppearance.MouseOverBackColor = Color.DeepSkyBlue
         CheckBox29.FlatStyle = FlatStyle.Flat
-        CheckBox29.Location = New Point(235, 217)
+        CheckBox29.Location = New Point(235, 221)
         CheckBox29.Name = "CheckBox29"
         CheckBox29.Size = New Size(46, 46)
         CheckBox29.TabIndex = 25
@@ -1169,12 +1197,12 @@ Partial Class Form1
         ' CheckBox30
         ' 
         CheckBox30.Appearance = Appearance.Button
-        CheckBox30.BackColor = Color.MediumSeaGreen
+        CheckBox30.BackColor = Color.Gray
         CheckBox30.CheckAlign = ContentAlignment.MiddleCenter
         CheckBox30.FlatAppearance.CheckedBackColor = Color.DeepSkyBlue
         CheckBox30.FlatAppearance.MouseOverBackColor = Color.DeepSkyBlue
         CheckBox30.FlatStyle = FlatStyle.Flat
-        CheckBox30.Location = New Point(183, 217)
+        CheckBox30.Location = New Point(183, 221)
         CheckBox30.Name = "CheckBox30"
         CheckBox30.Size = New Size(46, 46)
         CheckBox30.TabIndex = 24
@@ -1191,7 +1219,7 @@ Partial Class Form1
         CheckBox19.FlatAppearance.MouseDownBackColor = Color.White
         CheckBox19.FlatAppearance.MouseOverBackColor = Color.DeepSkyBlue
         CheckBox19.FlatStyle = FlatStyle.Flat
-        CheckBox19.Location = New Point(410, 390)
+        CheckBox19.Location = New Point(410, 333)
         CheckBox19.Name = "CheckBox19"
         CheckBox19.Size = New Size(46, 46)
         CheckBox19.TabIndex = 23
@@ -1202,13 +1230,13 @@ Partial Class Form1
         ' CheckBox20
         ' 
         CheckBox20.Appearance = Appearance.Button
-        CheckBox20.BackColor = Color.MediumSeaGreen
+        CheckBox20.BackColor = Color.Gray
         CheckBox20.CheckAlign = ContentAlignment.MiddleCenter
         CheckBox20.FlatAppearance.CheckedBackColor = Color.DeepSkyBlue
         CheckBox20.FlatAppearance.MouseDownBackColor = Color.White
         CheckBox20.FlatAppearance.MouseOverBackColor = Color.DeepSkyBlue
         CheckBox20.FlatStyle = FlatStyle.Flat
-        CheckBox20.Location = New Point(462, 390)
+        CheckBox20.Location = New Point(462, 333)
         CheckBox20.Name = "CheckBox20"
         CheckBox20.Size = New Size(46, 46)
         CheckBox20.TabIndex = 22
@@ -1219,13 +1247,13 @@ Partial Class Form1
         ' CheckBox21
         ' 
         CheckBox21.Appearance = Appearance.Button
-        CheckBox21.BackColor = Color.MediumSeaGreen
+        CheckBox21.BackColor = Color.Gray
         CheckBox21.CheckAlign = ContentAlignment.MiddleCenter
         CheckBox21.FlatAppearance.CheckedBackColor = Color.DeepSkyBlue
         CheckBox21.FlatAppearance.MouseDownBackColor = Color.White
         CheckBox21.FlatAppearance.MouseOverBackColor = Color.DeepSkyBlue
         CheckBox21.FlatStyle = FlatStyle.Flat
-        CheckBox21.Location = New Point(358, 390)
+        CheckBox21.Location = New Point(358, 333)
         CheckBox21.Name = "CheckBox21"
         CheckBox21.Size = New Size(46, 46)
         CheckBox21.TabIndex = 21
@@ -1236,12 +1264,12 @@ Partial Class Form1
         ' CheckBox22
         ' 
         CheckBox22.Appearance = Appearance.Button
-        CheckBox22.BackColor = Color.MediumSeaGreen
+        CheckBox22.BackColor = Color.Gray
         CheckBox22.CheckAlign = ContentAlignment.MiddleCenter
         CheckBox22.FlatAppearance.CheckedBackColor = Color.DeepSkyBlue
         CheckBox22.FlatAppearance.MouseOverBackColor = Color.DeepSkyBlue
         CheckBox22.FlatStyle = FlatStyle.Flat
-        CheckBox22.Location = New Point(287, 390)
+        CheckBox22.Location = New Point(287, 333)
         CheckBox22.Name = "CheckBox22"
         CheckBox22.Size = New Size(46, 46)
         CheckBox22.TabIndex = 20
@@ -1252,12 +1280,12 @@ Partial Class Form1
         ' CheckBox23
         ' 
         CheckBox23.Appearance = Appearance.Button
-        CheckBox23.BackColor = Color.MediumSeaGreen
+        CheckBox23.BackColor = Color.Gray
         CheckBox23.CheckAlign = ContentAlignment.MiddleCenter
         CheckBox23.FlatAppearance.CheckedBackColor = Color.DeepSkyBlue
         CheckBox23.FlatAppearance.MouseOverBackColor = Color.DeepSkyBlue
         CheckBox23.FlatStyle = FlatStyle.Flat
-        CheckBox23.Location = New Point(235, 390)
+        CheckBox23.Location = New Point(235, 333)
         CheckBox23.Name = "CheckBox23"
         CheckBox23.Size = New Size(46, 46)
         CheckBox23.TabIndex = 19
@@ -1268,12 +1296,12 @@ Partial Class Form1
         ' CheckBox24
         ' 
         CheckBox24.Appearance = Appearance.Button
-        CheckBox24.BackColor = Color.MediumSeaGreen
+        CheckBox24.BackColor = Color.Gray
         CheckBox24.CheckAlign = ContentAlignment.MiddleCenter
         CheckBox24.FlatAppearance.CheckedBackColor = Color.DeepSkyBlue
         CheckBox24.FlatAppearance.MouseOverBackColor = Color.DeepSkyBlue
         CheckBox24.FlatStyle = FlatStyle.Flat
-        CheckBox24.Location = New Point(183, 390)
+        CheckBox24.Location = New Point(183, 333)
         CheckBox24.Name = "CheckBox24"
         CheckBox24.Size = New Size(46, 46)
         CheckBox24.TabIndex = 18
@@ -1284,13 +1312,13 @@ Partial Class Form1
         ' CheckBox7
         ' 
         CheckBox7.Appearance = Appearance.Button
-        CheckBox7.BackColor = Color.MediumSeaGreen
+        CheckBox7.BackColor = Color.Gray
         CheckBox7.CheckAlign = ContentAlignment.MiddleCenter
         CheckBox7.FlatAppearance.CheckedBackColor = Color.DeepSkyBlue
         CheckBox7.FlatAppearance.MouseDownBackColor = Color.White
         CheckBox7.FlatAppearance.MouseOverBackColor = Color.DeepSkyBlue
         CheckBox7.FlatStyle = FlatStyle.Flat
-        CheckBox7.Location = New Point(410, 98)
+        CheckBox7.Location = New Point(410, 86)
         CheckBox7.Name = "CheckBox7"
         CheckBox7.Size = New Size(46, 46)
         CheckBox7.TabIndex = 11
@@ -1301,13 +1329,13 @@ Partial Class Form1
         ' CheckBox6
         ' 
         CheckBox6.Appearance = Appearance.Button
-        CheckBox6.BackColor = Color.MediumSeaGreen
+        CheckBox6.BackColor = Color.Gray
         CheckBox6.CheckAlign = ContentAlignment.MiddleCenter
         CheckBox6.FlatAppearance.CheckedBackColor = Color.DeepSkyBlue
         CheckBox6.FlatAppearance.MouseDownBackColor = Color.White
         CheckBox6.FlatAppearance.MouseOverBackColor = Color.DeepSkyBlue
         CheckBox6.FlatStyle = FlatStyle.Flat
-        CheckBox6.Location = New Point(410, 22)
+        CheckBox6.Location = New Point(410, 30)
         CheckBox6.Name = "CheckBox6"
         CheckBox6.RightToLeft = RightToLeft.No
         CheckBox6.Size = New Size(46, 46)
@@ -1319,13 +1347,13 @@ Partial Class Form1
         ' CheckBox8
         ' 
         CheckBox8.Appearance = Appearance.Button
-        CheckBox8.BackColor = Color.MediumSeaGreen
+        CheckBox8.BackColor = Color.Gray
         CheckBox8.CheckAlign = ContentAlignment.MiddleCenter
         CheckBox8.FlatAppearance.CheckedBackColor = Color.DeepSkyBlue
         CheckBox8.FlatAppearance.MouseDownBackColor = Color.White
         CheckBox8.FlatAppearance.MouseOverBackColor = Color.DeepSkyBlue
         CheckBox8.FlatStyle = FlatStyle.Flat
-        CheckBox8.Location = New Point(462, 98)
+        CheckBox8.Location = New Point(462, 86)
         CheckBox8.Name = "CheckBox8"
         CheckBox8.Size = New Size(46, 46)
         CheckBox8.TabIndex = 10
@@ -1336,13 +1364,13 @@ Partial Class Form1
         ' CheckBox5
         ' 
         CheckBox5.Appearance = Appearance.Button
-        CheckBox5.BackColor = Color.MediumSeaGreen
+        CheckBox5.BackColor = Color.Gray
         CheckBox5.CheckAlign = ContentAlignment.MiddleCenter
         CheckBox5.FlatAppearance.CheckedBackColor = Color.DeepSkyBlue
         CheckBox5.FlatAppearance.MouseDownBackColor = Color.White
         CheckBox5.FlatAppearance.MouseOverBackColor = Color.DeepSkyBlue
         CheckBox5.FlatStyle = FlatStyle.Flat
-        CheckBox5.Location = New Point(462, 22)
+        CheckBox5.Location = New Point(462, 30)
         CheckBox5.Name = "CheckBox5"
         CheckBox5.RightToLeft = RightToLeft.No
         CheckBox5.Size = New Size(46, 46)
@@ -1354,13 +1382,13 @@ Partial Class Form1
         ' CheckBox9
         ' 
         CheckBox9.Appearance = Appearance.Button
-        CheckBox9.BackColor = Color.MediumSeaGreen
+        CheckBox9.BackColor = Color.Gray
         CheckBox9.CheckAlign = ContentAlignment.MiddleCenter
         CheckBox9.FlatAppearance.CheckedBackColor = Color.DeepSkyBlue
         CheckBox9.FlatAppearance.MouseDownBackColor = Color.White
         CheckBox9.FlatAppearance.MouseOverBackColor = Color.DeepSkyBlue
         CheckBox9.FlatStyle = FlatStyle.Flat
-        CheckBox9.Location = New Point(358, 98)
+        CheckBox9.Location = New Point(358, 86)
         CheckBox9.Name = "CheckBox9"
         CheckBox9.Size = New Size(46, 46)
         CheckBox9.TabIndex = 9
@@ -1371,13 +1399,13 @@ Partial Class Form1
         ' CheckBox4
         ' 
         CheckBox4.Appearance = Appearance.Button
-        CheckBox4.BackColor = Color.MediumSeaGreen
+        CheckBox4.BackColor = Color.Gray
         CheckBox4.CheckAlign = ContentAlignment.MiddleCenter
         CheckBox4.FlatAppearance.CheckedBackColor = Color.DeepSkyBlue
         CheckBox4.FlatAppearance.MouseDownBackColor = Color.White
         CheckBox4.FlatAppearance.MouseOverBackColor = Color.DeepSkyBlue
         CheckBox4.FlatStyle = FlatStyle.Flat
-        CheckBox4.Location = New Point(358, 22)
+        CheckBox4.Location = New Point(358, 30)
         CheckBox4.Name = "CheckBox4"
         CheckBox4.RightToLeft = RightToLeft.No
         CheckBox4.Size = New Size(46, 46)
@@ -1389,12 +1417,12 @@ Partial Class Form1
         ' CheckBox10
         ' 
         CheckBox10.Appearance = Appearance.Button
-        CheckBox10.BackColor = Color.MediumSeaGreen
+        CheckBox10.BackColor = Color.Gray
         CheckBox10.CheckAlign = ContentAlignment.MiddleCenter
         CheckBox10.FlatAppearance.CheckedBackColor = Color.DeepSkyBlue
         CheckBox10.FlatAppearance.MouseOverBackColor = Color.DeepSkyBlue
         CheckBox10.FlatStyle = FlatStyle.Flat
-        CheckBox10.Location = New Point(287, 98)
+        CheckBox10.Location = New Point(287, 86)
         CheckBox10.Name = "CheckBox10"
         CheckBox10.Size = New Size(46, 46)
         CheckBox10.TabIndex = 8
@@ -1405,12 +1433,12 @@ Partial Class Form1
         ' CheckBox11
         ' 
         CheckBox11.Appearance = Appearance.Button
-        CheckBox11.BackColor = Color.MediumSeaGreen
+        CheckBox11.BackColor = Color.Gray
         CheckBox11.CheckAlign = ContentAlignment.MiddleCenter
         CheckBox11.FlatAppearance.CheckedBackColor = Color.DeepSkyBlue
         CheckBox11.FlatAppearance.MouseOverBackColor = Color.DeepSkyBlue
         CheckBox11.FlatStyle = FlatStyle.Flat
-        CheckBox11.Location = New Point(235, 98)
+        CheckBox11.Location = New Point(235, 86)
         CheckBox11.Name = "CheckBox11"
         CheckBox11.Size = New Size(46, 46)
         CheckBox11.TabIndex = 7
@@ -1421,12 +1449,12 @@ Partial Class Form1
         ' CheckBox3
         ' 
         CheckBox3.Appearance = Appearance.Button
-        CheckBox3.BackColor = Color.MediumSeaGreen
+        CheckBox3.BackColor = Color.Gray
         CheckBox3.CheckAlign = ContentAlignment.MiddleCenter
         CheckBox3.FlatAppearance.CheckedBackColor = Color.DeepSkyBlue
         CheckBox3.FlatAppearance.MouseOverBackColor = Color.DeepSkyBlue
         CheckBox3.FlatStyle = FlatStyle.Flat
-        CheckBox3.Location = New Point(287, 22)
+        CheckBox3.Location = New Point(287, 30)
         CheckBox3.Name = "CheckBox3"
         CheckBox3.RightToLeft = RightToLeft.No
         CheckBox3.Size = New Size(46, 46)
@@ -1443,7 +1471,7 @@ Partial Class Form1
         CheckBox12.FlatAppearance.CheckedBackColor = Color.DeepSkyBlue
         CheckBox12.FlatAppearance.MouseOverBackColor = Color.DeepSkyBlue
         CheckBox12.FlatStyle = FlatStyle.Flat
-        CheckBox12.Location = New Point(183, 98)
+        CheckBox12.Location = New Point(183, 86)
         CheckBox12.Name = "CheckBox12"
         CheckBox12.Size = New Size(46, 46)
         CheckBox12.TabIndex = 6
@@ -1454,12 +1482,12 @@ Partial Class Form1
         ' CheckBox2
         ' 
         CheckBox2.Appearance = Appearance.Button
-        CheckBox2.BackColor = Color.MediumSeaGreen
+        CheckBox2.BackColor = Color.Gray
         CheckBox2.CheckAlign = ContentAlignment.MiddleCenter
         CheckBox2.FlatAppearance.CheckedBackColor = Color.DeepSkyBlue
         CheckBox2.FlatAppearance.MouseOverBackColor = Color.DeepSkyBlue
         CheckBox2.FlatStyle = FlatStyle.Flat
-        CheckBox2.Location = New Point(235, 22)
+        CheckBox2.Location = New Point(235, 30)
         CheckBox2.Name = "CheckBox2"
         CheckBox2.RightToLeft = RightToLeft.No
         CheckBox2.Size = New Size(46, 46)
@@ -1471,12 +1499,12 @@ Partial Class Form1
         ' CheckBox1
         ' 
         CheckBox1.Appearance = Appearance.Button
-        CheckBox1.BackColor = Color.MediumSeaGreen
+        CheckBox1.BackColor = Color.Gray
         CheckBox1.CheckAlign = ContentAlignment.MiddleCenter
         CheckBox1.FlatAppearance.CheckedBackColor = Color.DeepSkyBlue
         CheckBox1.FlatAppearance.MouseOverBackColor = Color.DeepSkyBlue
         CheckBox1.FlatStyle = FlatStyle.Flat
-        CheckBox1.Location = New Point(183, 22)
+        CheckBox1.Location = New Point(183, 30)
         CheckBox1.Name = "CheckBox1"
         CheckBox1.RightToLeft = RightToLeft.No
         CheckBox1.Size = New Size(46, 46)
@@ -1554,14 +1582,215 @@ Partial Class Form1
         TakenColor.Size = New Size(18, 18)
         TakenColor.TabIndex = 107
         ' 
-        ' Form1
+        ' CheckBox91
+        ' 
+        CheckBox91.Appearance = Appearance.Button
+        CheckBox91.BackColor = Color.Gray
+        CheckBox91.FlatAppearance.CheckedBackColor = Color.DeepSkyBlue
+        CheckBox91.FlatAppearance.MouseOverBackColor = Color.DeepSkyBlue
+        CheckBox91.FlatStyle = FlatStyle.Flat
+        CheckBox91.Location = New Point(183, 878)
+        CheckBox91.Name = "CheckBox91"
+        CheckBox91.Size = New Size(46, 46)
+        CheckBox91.TabIndex = 201
+        CheckBox91.Text = "A"
+        CheckBox91.TextAlign = ContentAlignment.MiddleCenter
+        CheckBox91.UseVisualStyleBackColor = False
+        ' 
+        ' CheckBox92
+        ' 
+        CheckBox92.Appearance = Appearance.Button
+        CheckBox92.BackColor = Color.Gray
+        CheckBox92.FlatAppearance.CheckedBackColor = Color.DeepSkyBlue
+        CheckBox92.FlatAppearance.MouseOverBackColor = Color.DeepSkyBlue
+        CheckBox92.FlatStyle = FlatStyle.Flat
+        CheckBox92.Location = New Point(235, 878)
+        CheckBox92.Name = "CheckBox92"
+        CheckBox92.Size = New Size(46, 46)
+        CheckBox92.TabIndex = 202
+        CheckBox92.Text = "B"
+        CheckBox92.TextAlign = ContentAlignment.MiddleCenter
+        CheckBox92.UseVisualStyleBackColor = False
+        ' 
+        ' CheckBox93
+        ' 
+        CheckBox93.Appearance = Appearance.Button
+        CheckBox93.BackColor = Color.Gray
+        CheckBox93.FlatAppearance.CheckedBackColor = Color.DeepSkyBlue
+        CheckBox93.FlatAppearance.MouseOverBackColor = Color.DeepSkyBlue
+        CheckBox93.FlatStyle = FlatStyle.Flat
+        CheckBox93.Location = New Point(287, 878)
+        CheckBox93.Name = "CheckBox93"
+        CheckBox93.Size = New Size(46, 46)
+        CheckBox93.TabIndex = 203
+        CheckBox93.Text = "C"
+        CheckBox93.TextAlign = ContentAlignment.MiddleCenter
+        CheckBox93.UseVisualStyleBackColor = False
+        ' 
+        ' CheckBox94
+        ' 
+        CheckBox94.Appearance = Appearance.Button
+        CheckBox94.BackColor = Color.Gray
+        CheckBox94.FlatAppearance.CheckedBackColor = Color.DeepSkyBlue
+        CheckBox94.FlatAppearance.MouseOverBackColor = Color.DeepSkyBlue
+        CheckBox94.FlatStyle = FlatStyle.Flat
+        CheckBox94.Location = New Point(358, 878)
+        CheckBox94.Name = "CheckBox94"
+        CheckBox94.Size = New Size(46, 46)
+        CheckBox94.TabIndex = 204
+        CheckBox94.Text = "D"
+        CheckBox94.TextAlign = ContentAlignment.MiddleCenter
+        CheckBox94.UseVisualStyleBackColor = False
+        ' 
+        ' CheckBox95
+        ' 
+        CheckBox95.Appearance = Appearance.Button
+        CheckBox95.BackColor = Color.MediumSeaGreen
+        CheckBox95.FlatAppearance.CheckedBackColor = Color.DeepSkyBlue
+        CheckBox95.FlatAppearance.MouseOverBackColor = Color.DeepSkyBlue
+        CheckBox95.FlatStyle = FlatStyle.Flat
+        CheckBox95.Location = New Point(410, 878)
+        CheckBox95.Name = "CheckBox95"
+        CheckBox95.Size = New Size(46, 46)
+        CheckBox95.TabIndex = 205
+        CheckBox95.Text = "E"
+        CheckBox95.TextAlign = ContentAlignment.MiddleCenter
+        CheckBox95.UseVisualStyleBackColor = False
+        ' 
+        ' CheckBox96
+        ' 
+        CheckBox96.Appearance = Appearance.Button
+        CheckBox96.BackColor = Color.MediumSeaGreen
+        CheckBox96.FlatAppearance.CheckedBackColor = Color.DeepSkyBlue
+        CheckBox96.FlatAppearance.MouseOverBackColor = Color.DeepSkyBlue
+        CheckBox96.FlatStyle = FlatStyle.Flat
+        CheckBox96.Location = New Point(462, 878)
+        CheckBox96.Name = "CheckBox96"
+        CheckBox96.Size = New Size(46, 46)
+        CheckBox96.TabIndex = 206
+        CheckBox96.Text = "F"
+        CheckBox96.TextAlign = ContentAlignment.MiddleCenter
+        CheckBox96.UseVisualStyleBackColor = False
+        ' 
+        ' CheckBox97
+        ' 
+        CheckBox97.Appearance = Appearance.Button
+        CheckBox97.BackColor = Color.Gray
+        CheckBox97.FlatAppearance.CheckedBackColor = Color.DeepSkyBlue
+        CheckBox97.FlatAppearance.MouseOverBackColor = Color.DeepSkyBlue
+        CheckBox97.FlatStyle = FlatStyle.Flat
+        CheckBox97.Location = New Point(183, 934)
+        CheckBox97.Name = "CheckBox97"
+        CheckBox97.Size = New Size(46, 46)
+        CheckBox97.TabIndex = 207
+        CheckBox97.Text = "A"
+        CheckBox97.TextAlign = ContentAlignment.MiddleCenter
+        CheckBox97.UseVisualStyleBackColor = False
+        ' 
+        ' CheckBox98
+        ' 
+        CheckBox98.Appearance = Appearance.Button
+        CheckBox98.BackColor = Color.Gray
+        CheckBox98.FlatAppearance.CheckedBackColor = Color.DeepSkyBlue
+        CheckBox98.FlatAppearance.MouseOverBackColor = Color.DeepSkyBlue
+        CheckBox98.FlatStyle = FlatStyle.Flat
+        CheckBox98.Location = New Point(235, 934)
+        CheckBox98.Name = "CheckBox98"
+        CheckBox98.Size = New Size(46, 46)
+        CheckBox98.TabIndex = 208
+        CheckBox98.Text = "B"
+        CheckBox98.TextAlign = ContentAlignment.MiddleCenter
+        CheckBox98.UseVisualStyleBackColor = False
+        ' 
+        ' CheckBox99
+        ' 
+        CheckBox99.Appearance = Appearance.Button
+        CheckBox99.BackColor = Color.Gray
+        CheckBox99.FlatAppearance.CheckedBackColor = Color.DeepSkyBlue
+        CheckBox99.FlatAppearance.MouseOverBackColor = Color.DeepSkyBlue
+        CheckBox99.FlatStyle = FlatStyle.Flat
+        CheckBox99.Location = New Point(287, 934)
+        CheckBox99.Name = "CheckBox99"
+        CheckBox99.Size = New Size(46, 46)
+        CheckBox99.TabIndex = 209
+        CheckBox99.Text = "C"
+        CheckBox99.TextAlign = ContentAlignment.MiddleCenter
+        CheckBox99.UseVisualStyleBackColor = False
+        ' 
+        ' CheckBox100
+        ' 
+        CheckBox100.Appearance = Appearance.Button
+        CheckBox100.BackColor = Color.Gray
+        CheckBox100.FlatAppearance.CheckedBackColor = Color.DeepSkyBlue
+        CheckBox100.FlatAppearance.MouseOverBackColor = Color.DeepSkyBlue
+        CheckBox100.FlatStyle = FlatStyle.Flat
+        CheckBox100.Location = New Point(358, 934)
+        CheckBox100.Name = "CheckBox100"
+        CheckBox100.Size = New Size(46, 46)
+        CheckBox100.TabIndex = 210
+        CheckBox100.Text = "D"
+        CheckBox100.TextAlign = ContentAlignment.MiddleCenter
+        CheckBox100.UseVisualStyleBackColor = False
+        ' 
+        ' CheckBox101
+        ' 
+        CheckBox101.Appearance = Appearance.Button
+        CheckBox101.BackColor = Color.Gray
+        CheckBox101.FlatAppearance.CheckedBackColor = Color.DeepSkyBlue
+        CheckBox101.FlatAppearance.MouseOverBackColor = Color.DeepSkyBlue
+        CheckBox101.FlatStyle = FlatStyle.Flat
+        CheckBox101.Location = New Point(410, 934)
+        CheckBox101.Name = "CheckBox101"
+        CheckBox101.Size = New Size(46, 46)
+        CheckBox101.TabIndex = 211
+        CheckBox101.Text = "E"
+        CheckBox101.TextAlign = ContentAlignment.MiddleCenter
+        CheckBox101.UseVisualStyleBackColor = False
+        ' 
+        ' CheckBox102
+        ' 
+        CheckBox102.Appearance = Appearance.Button
+        CheckBox102.BackColor = Color.Gray
+        CheckBox102.FlatAppearance.CheckedBackColor = Color.DeepSkyBlue
+        CheckBox102.FlatAppearance.MouseOverBackColor = Color.DeepSkyBlue
+        CheckBox102.FlatStyle = FlatStyle.Flat
+        CheckBox102.Location = New Point(462, 934)
+        CheckBox102.Name = "CheckBox102"
+        CheckBox102.Size = New Size(46, 46)
+        CheckBox102.TabIndex = 212
+        CheckBox102.Text = "F"
+        CheckBox102.TextAlign = ContentAlignment.MiddleCenter
+        CheckBox102.UseVisualStyleBackColor = False
+        ' 
+        ' Label15
+        ' 
+        Label15.Font = New Font("Segoe UI", 8F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label15.Location = New Point(333, 891)
+        Label15.Name = "Label15"
+        Label15.Size = New Size(24, 20)
+        Label15.TabIndex = 301
+        Label15.Text = "26"
+        Label15.TextAlign = ContentAlignment.MiddleCenter
+        ' 
+        ' Label16
+        ' 
+        Label16.Font = New Font("Segoe UI", 8F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label16.Location = New Point(333, 947)
+        Label16.Name = "Label16"
+        Label16.Size = New Size(24, 20)
+        Label16.TabIndex = 302
+        Label16.Text = "27"
+        Label16.TextAlign = ContentAlignment.MiddleCenter
+        ' 
+        ' FormDylan
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
+        AutoScroll = True
         ClientSize = New Size(716, 1061)
         Controls.Add(GroupBox1)
-        Name = "Form1"
-        Text = "Form1"
+        Name = "FormDylan"
+        Text = "Dylan - JetBlue B6 2029"
         GroupBox1.ResumeLayout(False)
         GroupBox1.PerformLayout()
         SeatLegend.ResumeLayout(False)
@@ -1569,6 +1798,20 @@ Partial Class Form1
         ResumeLayout(False)
     End Sub
     Friend WithEvents GroupBox1 As GroupBox
+    Friend WithEvents CheckBox91 As CheckBox
+    Friend WithEvents CheckBox92 As CheckBox
+    Friend WithEvents CheckBox93 As CheckBox
+    Friend WithEvents CheckBox94 As CheckBox
+    Friend WithEvents CheckBox95 As CheckBox
+    Friend WithEvents CheckBox96 As CheckBox
+    Friend WithEvents CheckBox97 As CheckBox
+    Friend WithEvents CheckBox98 As CheckBox
+    Friend WithEvents CheckBox99 As CheckBox
+    Friend WithEvents CheckBox100 As CheckBox
+    Friend WithEvents CheckBox101 As CheckBox
+    Friend WithEvents CheckBox102 As CheckBox
+    Friend WithEvents Label15 As Label
+    Friend WithEvents Label16 As Label
     Friend WithEvents CheckBox1 As CheckBox
     Friend WithEvents CheckBox79 As CheckBox
     Friend WithEvents CheckBox80 As CheckBox
