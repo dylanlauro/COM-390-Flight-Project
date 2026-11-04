@@ -1,9 +1,9 @@
-﻿Module RegressionExample
+Module Regression
     Dim sumy_2, sumx1_2, sumx2_2 As Double
     Dim sumx1y, sumx2y, sumx1x2 As Double
-    Dim a, b1, b2 As Double
+    Public a, b1, b2 As Double
 
-    Public Sub Main(args As String())
+    Public Sub Calculate()
         Dim avgY, avgX1, avgX2 As Double
         Dim sumY, sumX1, sumX2 As Double
         Dim sumSQY, sumSQX1, sumSQX2 As Double
@@ -22,53 +22,31 @@
         sumX2 = CalcSum(X2)
         avgX2 = CalcMean(sumX2, X2.Length)
 
-        Console.WriteLine("sumY = " & sumY & " avgY = " & avgY)
-        Console.WriteLine("sumX1 = " & sumX1 & " avgX1 = " & avgX1)
-        Console.WriteLine("sumX2 = " & sumX2 & " avgX2 = " & avgX2)
-
         sumSQY = CalcSumOfSquares(Y)
         sumSQX1 = CalcSumOfSquares(X1)
         sumSQX2 = CalcSumOfSquares(X2)
-        Console.WriteLine("Y SQ = " & sumSQY & " X1 SQ = " & sumSQX1 & " X2 SQ = " & sumSQX2)
 
         sumYX1 = CalcSumOfVar(Y, X1)
         sumYX2 = CalcSumOfVar(Y, X2)
         sumX1X2 = CalcSumOfVar(X1, X2)
-        Console.WriteLine("YX1 = " & sumYX1 & " YX2 = " & sumYX2 & " X1X2 = " & sumX1X2)
 
         sumy_2 = sumSQY - (Math.Pow(sumY, 2) / n)
-        Console.WriteLine("sumy_2 = " & sumy_2)
-
 
         sumx1_2 = sumSQX1 - (Math.Pow(sumX1, 2) / n)
-        Console.WriteLine("sumx1_2 = " & sumx1_2)
-
 
         sumx2_2 = sumSQX2 - (Math.Pow(sumX2, 2) / n)
-        Console.WriteLine("sumx2_2 = " & sumx2_2)
 
         sumx1y = sumYX1 - ((sumX1 * sumY) / n)
-        Console.WriteLine("sumx1y = " & sumx1y)
 
         sumx2y = sumYX2 - ((sumX2 * sumY) / n)
-        Console.WriteLine("sumx2y = " & sumx2y)
 
-        RegressionExample.sumx1x2 = sumX1X2 - ((sumX1 * sumX2) / n)
-        Console.WriteLine("sumx1x2 = " & RegressionExample.sumx1x2)
+        Regression.sumx1x2 = sumX1X2 - ((sumX1 * sumX2) / n)
 
-        b1 = (sumx2_2 * sumx1y - RegressionExample.sumx1x2 * sumx2y) / (sumx1_2 * sumx2_2 - RegressionExample.sumx1x2 * RegressionExample.sumx1x2)
-        Console.WriteLine("b1 = " & b1)
+        b1 = (sumx2_2 * sumx1y - Regression.sumx1x2 * sumx2y) / (sumx1_2 * sumx2_2 - Regression.sumx1x2 * Regression.sumx1x2)
 
-        b2 = (sumx1_2 * sumx2y - RegressionExample.sumx1x2 * sumx1y) / (sumx1_2 * sumx2_2 - RegressionExample.sumx1x2 * RegressionExample.sumx1x2)
-        Console.WriteLine("b2 = " & b2)
+        b2 = (sumx1_2 * sumx2y - Regression.sumx1x2 * sumx1y) / (sumx1_2 * sumx2_2 - Regression.sumx1x2 * Regression.sumx1x2)
 
         a = avgY - b1 * avgX1 - b2 * avgX2
-        Console.WriteLine("a = " & a)
-
-        If Not Console.IsInputRedirected Then
-            Console.WriteLine("Press Enter to close")
-            Console.ReadLine()
-        End If
     End Sub
 
     Public Function CalcMean(sum As Double, N As Integer) As Double

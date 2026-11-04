@@ -6,13 +6,7 @@
     <StartupObject>Sub Main</StartupObject>
     <UseWindowsForms>true</UseWindowsForms>
     <MyType>WindowsForms</MyType>
-    <DefaultItemExcludes>$(DefaultItemExcludes);RegressionConsole\**</DefaultItemExcludes>
   </PropertyGroup>
-
-  <ItemGroup>
-    <Compile Remove="RegressionExample.vb" />
-  </ItemGroup>
-
   <ItemGroup>
     <Import Include="System.Data" />
     <Import Include="System.Drawing" />
@@ -45,6 +39,10 @@
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
     </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="7.1.1" />
   </ItemGroup>
 
 </Project>
