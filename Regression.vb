@@ -1,18 +1,43 @@
+Imports System.Data
+Imports Microsoft.Data.SqlClient
+
 Module Regression
     Dim sumy_2, sumx1_2, sumx2_2 As Double
     Dim sumx1y, sumx2y, sumx1x2 As Double
     Public a, b1, b2 As Double
 
     Public Sub Calculate()
+        Dim X1List As New List(Of Double)()
+        Dim X2List As New List(Of Double)()
+        Dim YList As New List(Of Double)()
+
+        Using connection As SqlConnection = SQL.GetConnection()
+            connection.Open()
+
+            Using command As New SqlCommand("dbo.GetJakeFlightRegressionData", connection)
+                command.CommandType = CommandType.StoredProcedure
+
+                Using reader As SqlDataReader = command.ExecuteReader()
+                    While reader.Read()
+                        X1List.Add(Convert.ToDouble(reader("X1")))
+                        X2List.Add(Convert.ToDouble(reader("X2")))
+                        YList.Add(Convert.ToDouble(reader("Y")))
+                    End While
+                End Using
+            End Using
+        End Using
+
+        Dim X1() As Double = X1List.ToArray()
+        Dim X2() As Double = X2List.ToArray()
+        Dim Y() As Double = YList.ToArray()
+
         Dim avgY, avgX1, avgX2 As Double
         Dim sumY, sumX1, sumX2 As Double
         Dim sumSQY, sumSQX1, sumSQX2 As Double
         Dim sumYX1, sumYX2, sumX1X2 As Double
-        Dim Y() As Double = {2, 4, 4, 1, 5, 4, 7, 9, 7, 8, 5, 2, 8, 6, 10, 9, 3, 6, 7, 10}
-        Dim X1() As Double = {1, 2, 1, 1, 3, 4, 5, 5, 7, 6, 4, 3, 6, 6, 8, 9, 2, 6, 4, 4}
-        Dim X2() As Double = {3, 5, 3, 4, 6, 5, 6, 7, 8, 4, 3, 4, 6, 7, 7, 6, 6, 5, 6, 9}
 
         Dim n = Y.Length
+
         sumY = CalcSum(Y)
         avgY = CalcMean(sumY, Y.Length)
 
@@ -31,22 +56,21 @@ Module Regression
         sumX1X2 = CalcSumOfVar(X1, X2)
 
         sumy_2 = sumSQY - (Math.Pow(sumY, 2) / n)
-
         sumx1_2 = sumSQX1 - (Math.Pow(sumX1, 2) / n)
-
         sumx2_2 = sumSQX2 - (Math.Pow(sumX2, 2) / n)
 
         sumx1y = sumYX1 - ((sumX1 * sumY) / n)
-
         sumx2y = sumYX2 - ((sumX2 * sumY) / n)
-
         Regression.sumx1x2 = sumX1X2 - ((sumX1 * sumX2) / n)
 
         b1 = (sumx2_2 * sumx1y - Regression.sumx1x2 * sumx2y) / (sumx1_2 * sumx2_2 - Regression.sumx1x2 * Regression.sumx1x2)
-
         b2 = (sumx1_2 * sumx2y - Regression.sumx1x2 * sumx1y) / (sumx1_2 * sumx2_2 - Regression.sumx1x2 * Regression.sumx1x2)
 
         a = avgY - b1 * avgX1 - b2 * avgX2
+
+        System.Windows.Forms.MessageBox.Show(
+            "b1 = " & b1 & vbCrLf & "b2 = " & b2 & vbCrLf & "a = " & a,
+            "Here are your regression results")
     End Sub
 
     Public Function CalcMean(sum As Double, N As Integer) As Double
@@ -78,5 +102,4 @@ Module Regression
         Next
         Return sum
     End Function
-
 End Module
