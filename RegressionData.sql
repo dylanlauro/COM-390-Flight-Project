@@ -1,4 +1,4 @@
-USE [COM390];
+USE [FlightDB];
 GO
 
 -- X1 = days to departure, X2 = seats available, Y = price.

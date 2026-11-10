@@ -5,7 +5,7 @@ Imports Microsoft.Data.SqlClient
 Module SQL
     ' Connection string for the database we're currently using.
     ' Change it here (or set SQL.ConnString from anywhere) to switch databases.
-    Public ConnString As String = "Data Source=localhost;Initial Catalog=COM390;Integrated Security=True;TrustServerCertificate=True"
+    Public ConnString As String = "Data Source=localhost;Initial Catalog=FlightDB;Integrated Security=True;TrustServerCertificate=True"
 
     ' Whose flight data the regression uses. Set CurrentFlight before calling Regression.Regression().
     Public Enum FlightData
