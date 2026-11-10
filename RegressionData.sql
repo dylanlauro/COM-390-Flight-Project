@@ -93,17 +93,108 @@ BEGIN
 END;
 GO
 
--- Dylan's flight (JetBlue B6 2029, FlightID 2), from FLIGHT_CHECK_DYLAN.
--- X1 = days to departure, X2 = seats available, Y = price. Leaves out checks missing any of them.
+IF OBJECT_ID(N'dbo.DylanFlightRegressionData', N'U') IS NULL
+BEGIN
+    CREATE TABLE dbo.DylanFlightRegressionData
+    (
+        FlightID int NOT NULL,
+        ObservationID int NOT NULL,
+        X1 float NOT NULL,
+        X2 float NOT NULL,
+        Y float NOT NULL,
+        PRIMARY KEY (FlightID, ObservationID),
+        FOREIGN KEY (FlightID) REFERENCES dbo.FLIGHT (FlightID)
+    );
+END;
+GO
+
+IF NOT EXISTS (SELECT 1 FROM dbo.DylanFlightRegressionData WHERE FlightID = 2)
+BEGIN
+    INSERT INTO dbo.DylanFlightRegressionData (FlightID, ObservationID, X1, X2, Y)
+    VALUES
+        (2, 1, 67, 66, 194),
+        (2, 2, 67, 66, 194),
+        (2, 3, 67, 66, 194),
+        (2, 4, 66, 66, 194),
+        (2, 5, 65, 66, 204),
+        (2, 6, 65, 66, 145),
+        (2, 7, 64, 66, 145),
+        (2, 8, 64, 64, 145),
+        (2, 9, 64, 64, 145),
+        (2, 10, 63, 64, 145),
+        (2, 11, 63, 64, 145),
+        (2, 12, 62, 64, 145),
+        (2, 13, 62, 64, 145),
+        (2, 14, 61, 64, 145),
+        (2, 15, 61, 63, 145),
+        (2, 16, 60, 63, 145),
+        (2, 17, 60, 63, 145),
+        (2, 18, 59, 63, 249),
+        (2, 19, 59, 63, 145),
+        (2, 20, 58, 63, 249),
+        (2, 21, 58, 63, 145),
+        (2, 22, 57, 63, 145),
+        (2, 23, 57, 63, 145),
+        (2, 24, 56, 63, 249),
+        (2, 25, 56, 63, 145),
+        (2, 26, 56, 63, 145),
+        (2, 27, 55, 63, 249),
+        (2, 28, 55, 62, 145),
+        (2, 29, 54, 62, 249),
+        (2, 30, 54, 62, 145),
+        (2, 31, 53, 62, 145),
+        (2, 32, 53, 59, 145),
+        (2, 33, 52, 59, 145),
+        (2, 34, 52, 59, 145),
+        (2, 35, 51, 59, 249),
+        (2, 36, 51, 59, 145),
+        (2, 37, 50, 59, 249),
+        (2, 38, 50, 59, 249),
+        (2, 39, 49, 59, 249),
+        (2, 40, 49, 59, 249),
+        (2, 41, 48, 59, 249),
+        (2, 42, 48, 55, 249),
+        (2, 43, 47, 55, 249),
+        (2, 44, 47, 55, 249),
+        (2, 45, 46, 55, 249),
+        (2, 46, 46, 55, 249),
+        (2, 47, 45, 55, 249),
+        (2, 48, 45, 55, 249),
+        (2, 49, 44, 55, 249),
+        (2, 50, 44, 55, 249),
+        (2, 51, 43, 55, 249),
+        (2, 52, 43, 55, 249),
+        (2, 53, 42, 55, 249),
+        (2, 54, 42, 55, 249),
+        (2, 55, 41, 55, 249),
+        (2, 56, 41, 54, 249),
+        (2, 57, 40, 54, 249),
+        (2, 58, 40, 54, 249),
+        (2, 59, 39, 54, 249),
+        (2, 60, 39, 54, 249),
+        (2, 61, 38, 53, 249),
+        (2, 62, 38, 53, 249),
+        (2, 63, 37, 53, 249),
+        (2, 64, 37, 53, 249),
+        (2, 65, 37, 53, 249),
+        (2, 66, 36, 53, 249),
+        (2, 67, 36, 53, 249),
+        (2, 68, 35, 53, 249),
+        (2, 69, 35, 53, 249),
+        (2, 70, 34, 53, 249),
+        (2, 71, 34, 50, 249),
+        (2, 72, 33, 50, 249),
+        (2, 73, 33, 50, 249),
+        (2, 74, 32, 49, 249);
+END;
+GO
+
 CREATE OR ALTER PROCEDURE dbo.GetDylanFlightRegressionData
 AS
 BEGIN
-    SELECT DaysToDeparture AS X1, SeatsAvailable AS X2, TicketPrice AS Y
-    FROM dbo.FLIGHT_CHECK_DYLAN
+    SELECT X1, X2, Y
+    FROM dbo.DylanFlightRegressionData
     WHERE FlightID = 2
-      AND DaysToDeparture IS NOT NULL
-      AND SeatsAvailable IS NOT NULL
-      AND TicketPrice IS NOT NULL
-    ORDER BY CheckNumber;
+    ORDER BY ObservationID;
 END;
 GO
