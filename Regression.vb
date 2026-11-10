@@ -8,7 +8,7 @@ Module Regression
     Dim sumx1y, sumx2y, sumx1x2 As Double
     Public a, b1, b2 As Double
 
-    Public Sub Calculate()
+    Public Sub Regression()
         Dim X1List As New List(Of Double)()
         Dim X2List As New List(Of Double)()
         Dim YList As New List(Of Double)()
@@ -16,7 +16,7 @@ Module Regression
         Using connection As SqlConnection = SQL.GetConnection()
             connection.Open()
 
-            Using command As New SqlCommand("dbo.GetJakeFlightRegressionData", connection)
+            Using command As New SqlCommand(SQL.RegressionSetting(), connection)
                 command.CommandType = CommandType.StoredProcedure
 
                 Using reader As SqlDataReader = command.ExecuteReader()
@@ -63,10 +63,10 @@ Module Regression
 
         sumx1y = sumYX1 - ((sumX1 * sumY) / n)
         sumx2y = sumYX2 - ((sumX2 * sumY) / n)
-        Regression.sumx1x2 = sumX1X2 - ((sumX1 * sumX2) / n)
+        FlightProject.Regression.sumx1x2 = sumX1X2 - ((sumX1 * sumX2) / n)
 
-        b1 = (sumx2_2 * sumx1y - Regression.sumx1x2 * sumx2y) / (sumx1_2 * sumx2_2 - Regression.sumx1x2 * Regression.sumx1x2)
-        b2 = (sumx1_2 * sumx2y - Regression.sumx1x2 * sumx1y) / (sumx1_2 * sumx2_2 - Regression.sumx1x2 * Regression.sumx1x2)
+        b1 = (sumx2_2 * sumx1y - FlightProject.Regression.sumx1x2 * sumx2y) / (sumx1_2 * sumx2_2 - FlightProject.Regression.sumx1x2 * FlightProject.Regression.sumx1x2)
+        b2 = (sumx1_2 * sumx2y - FlightProject.Regression.sumx1x2 * sumx1y) / (sumx1_2 * sumx2_2 - FlightProject.Regression.sumx1x2 * FlightProject.Regression.sumx1x2)
 
         a = avgY - b1 * avgX1 - b2 * avgX2
 

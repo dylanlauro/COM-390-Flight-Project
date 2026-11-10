@@ -126,6 +126,8 @@ Partial Class FormDylan
         Label14 = New Label()
         LabelTaken = New Label()
         SeatLegend = New Panel()
+        btnShowJakeK = New Button()
+        btnShowJakeR = New Button()
         AvailableColor = New Panel()
         SelectedColor = New Panel()
         TakenColor = New Panel()
@@ -139,6 +141,8 @@ Partial Class FormDylan
         GroupBox1.BackgroundImage = CType(resources.GetObject("GroupBox1.BackgroundImage"), Image)
         GroupBox1.BackgroundImageLayout = ImageLayout.Stretch
         GroupBox1.Controls.Add(SeatLegend)
+        GroupBox1.Controls.Add(btnShowJakeK)
+        GroupBox1.Controls.Add(btnShowJakeR)
         GroupBox1.Controls.Add(CheckBox91)
         GroupBox1.Controls.Add(CheckBox92)
         GroupBox1.Controls.Add(CheckBox93)
@@ -1782,6 +1786,24 @@ Partial Class FormDylan
         Label16.Text = "27"
         Label16.TextAlign = ContentAlignment.MiddleCenter
         ' 
+        ' btnShowJakeK
+        ' 
+        btnShowJakeK.Location = New Point(6, 128)
+        btnShowJakeK.Name = "btnShowJakeK"
+        btnShowJakeK.Size = New Size(140, 30)
+        btnShowJakeK.TabIndex = 401
+        btnShowJakeK.Text = "Show Jake K"
+        btnShowJakeK.UseVisualStyleBackColor = True
+        ' 
+        ' btnShowJakeR
+        ' 
+        btnShowJakeR.Location = New Point(6, 164)
+        btnShowJakeR.Name = "btnShowJakeR"
+        btnShowJakeR.Size = New Size(140, 30)
+        btnShowJakeR.TabIndex = 402
+        btnShowJakeR.Text = "Show Jake R"
+        btnShowJakeR.UseVisualStyleBackColor = True
+        ' 
         ' FormDylan
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
@@ -1900,6 +1922,8 @@ Partial Class FormDylan
     Friend WithEvents Label14 As Label
     Friend WithEvents LabelTaken As Label
     Friend WithEvents SeatLegend As Panel
+    Friend WithEvents btnShowJakeK As Button
+    Friend WithEvents btnShowJakeR As Button
     Friend WithEvents AvailableColor As Panel
     Friend WithEvents SelectedColor As Panel
     Friend WithEvents TakenColor As Panel

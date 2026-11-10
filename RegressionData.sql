@@ -1,4 +1,4 @@
-USE [FlightDB];
+USE [COM390];
 GO
 
 -- X1 = days to departure, X2 = seats available, Y = price.
@@ -90,5 +90,20 @@ BEGIN
     FROM dbo.JakeFlightRegressionData
     WHERE FlightID = 1
     ORDER BY ObservationID;
+END;
+GO
+
+-- Dylan's flight (JetBlue B6 2029, FlightID 2), from FLIGHT_CHECK_DYLAN.
+-- X1 = days to departure, X2 = seats available, Y = price. Leaves out checks missing any of them.
+CREATE OR ALTER PROCEDURE dbo.GetDylanFlightRegressionData
+AS
+BEGIN
+    SELECT DaysToDeparture AS X1, SeatsAvailable AS X2, TicketPrice AS Y
+    FROM dbo.FLIGHT_CHECK_DYLAN
+    WHERE FlightID = 2
+      AND DaysToDeparture IS NOT NULL
+      AND SeatsAvailable IS NOT NULL
+      AND TicketPrice IS NOT NULL
+    ORDER BY CheckNumber;
 END;
 GO

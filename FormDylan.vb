@@ -1,6 +1,26 @@
 ﻿' By Dylan Lauro, Jake Krumsiek, Jake Rosa-Chaves
 
 Public Class FormDylan
+    Private Sub FormDylan_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        SQL.CurrentFlight = SQL.FlightData.Dylan
+        Regression.Regression()
+    End Sub
+
+    Private Sub btnShowJakeK_Click(sender As Object, e As EventArgs) Handles btnShowJakeK.Click
+        Me.Hide()
+        FormJakeK.Show()
+    End Sub
+
+    Private Sub btnShowJakeR_Click(sender As Object, e As EventArgs) Handles btnShowJakeR.Click
+        Me.Hide()
+        FormJakeR.Show()
+    End Sub
+
+    ' FormJakeK is the startup form, so closing this one has to end the app itself
+    Private Sub FormDylan_FormClosed(sender As Object, e As FormClosedEventArgs) Handles Me.FormClosed
+        Application.Exit()
+    End Sub
+
     Private Sub GroupBox1_Enter(sender As Object, e As EventArgs) Handles GroupBox1.Enter
 
     End Sub

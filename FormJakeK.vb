@@ -2,7 +2,18 @@
 
 Public Class FormJakeK
     Private Sub FormJakeK_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        Regression.Calculate()
+        SQL.CurrentFlight = SQL.FlightData.Jake
+        Regression.Regression()
+    End Sub
+
+    Private Sub btnShowDylan_Click(sender As Object, e As EventArgs) Handles btnShowDylan.Click
+        Me.Hide()
+        FormDylan.Show()
+    End Sub
+
+    Private Sub btnShowJakeR_Click(sender As Object, e As EventArgs) Handles btnShowJakeR.Click
+        Me.Hide()
+        FormJakeR.Show()
     End Sub
 
     Private Sub GroupBox1_Enter(sender As Object, e As EventArgs) Handles GroupBox1.Enter
