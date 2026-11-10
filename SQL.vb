@@ -1,4 +1,7 @@
-﻿Imports Microsoft.Data.SqlClient
+﻿' COM 390 Flight Project
+' Partners: Dylan Lauro, Jake Krumsiek, Jake Rosa-Chaves
+
+Imports Microsoft.Data.SqlClient
 
 Module SQL
     Public Const ConnString As String = "Data Source=localhost;Initial Catalog=FlightDB;Integrated Security=True;TrustServerCertificate=True"

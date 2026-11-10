@@ -1,3 +1,6 @@
+' COM 390 Flight Project
+' Partners: Dylan Lauro, Jake Krumsiek, Jake Rosa-Chaves
+
 Imports System.Data
 Imports Microsoft.Data.SqlClient
 

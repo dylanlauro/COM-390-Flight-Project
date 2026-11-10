@@ -1,4 +1,7 @@
-﻿Public Class FormDylan
+﻿' COM 390 Flight Project
+' Partners: Dylan Lauro, Jake Krumsiek, Jake Rosa-Chaves
+
+Public Class FormDylan
     Private Sub GroupBox1_Enter(sender As Object, e As EventArgs) Handles GroupBox1.Enter
 
     End Sub

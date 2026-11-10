@@ -1,3 +1,6 @@
+' COM 390 Flight Project
+' Partners: Dylan Lauro, Jake Krumsiek, Jake Rosa-Chaves
+
 Public Class FormJakeK
     Private Sub FormJakeK_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Regression.Calculate()
