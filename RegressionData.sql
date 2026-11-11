@@ -1,7 +1,6 @@
 USE [FlightDB];
 GO
 
--- X1 = days to departure, X2 = seats available, Y = price.
 IF OBJECT_ID(N'dbo.JakeFlightRegressionData', N'U') IS NULL
 BEGIN
     CREATE TABLE dbo.JakeFlightRegressionData

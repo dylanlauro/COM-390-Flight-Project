@@ -16,7 +16,6 @@ Public Class FormDylan
         FormJakeR.Show()
     End Sub
 
-    ' FormJakeK is the startup form, so closing this one has to end the app itself
     Private Sub FormDylan_FormClosed(sender As Object, e As FormClosedEventArgs) Handles Me.FormClosed
         Application.Exit()
     End Sub
