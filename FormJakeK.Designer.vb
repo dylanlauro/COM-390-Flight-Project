@@ -112,8 +112,7 @@ Partial Class FormJakeK
         Label14 = New Label()
         LabelTaken = New Label()
         SeatLegend = New Panel()
-        btnShowDylan = New Button()
-        btnShowJakeR = New Button()
+        btnCheckout = New Button()
         AvailableColor = New Panel()
         SelectedColor = New Panel()
         TakenColor = New Panel()
@@ -127,8 +126,7 @@ Partial Class FormJakeK
         GroupBox1.BackgroundImage = CType(resources.GetObject("GroupBox1.BackgroundImage"), Image)
         GroupBox1.BackgroundImageLayout = ImageLayout.Stretch
         GroupBox1.Controls.Add(SeatLegend)
-        GroupBox1.Controls.Add(btnShowDylan)
-        GroupBox1.Controls.Add(btnShowJakeR)
+        GroupBox1.Controls.Add(btnCheckout)
         GroupBox1.Controls.Add(Label12)
         GroupBox1.Controls.Add(Label11)
         GroupBox1.Controls.Add(Label10)
@@ -1558,23 +1556,15 @@ Partial Class FormJakeK
         TakenColor.Size = New Size(18, 18)
         TakenColor.TabIndex = 107
         ' 
-        ' btnShowDylan
+        ' btnCheckout
         ' 
-        btnShowDylan.Location = New Point(6, 128)
-        btnShowDylan.Name = "btnShowDylan"
-        btnShowDylan.Size = New Size(140, 30)
-        btnShowDylan.TabIndex = 401
-        btnShowDylan.Text = "Show Dylan"
-        btnShowDylan.UseVisualStyleBackColor = True
-        ' 
-        ' btnShowJakeR
-        ' 
-        btnShowJakeR.Location = New Point(6, 164)
-        btnShowJakeR.Name = "btnShowJakeR"
-        btnShowJakeR.Size = New Size(140, 30)
-        btnShowJakeR.TabIndex = 402
-        btnShowJakeR.Text = "Show Jake R"
-        btnShowJakeR.UseVisualStyleBackColor = True
+        btnCheckout.Anchor = AnchorStyles.Bottom Or AnchorStyles.Right
+        btnCheckout.Location = New Point(540, 985)
+        btnCheckout.Name = "btnCheckout"
+        btnCheckout.Size = New Size(140, 40)
+        btnCheckout.TabIndex = 410
+        btnCheckout.Text = "Checkout"
+        btnCheckout.UseVisualStyleBackColor = True
         ' 
         ' FormJakeK
         ' 
@@ -1679,8 +1669,7 @@ Partial Class FormJakeK
     Friend WithEvents Label14 As Label
     Friend WithEvents LabelTaken As Label
     Friend WithEvents SeatLegend As Panel
-    Friend WithEvents btnShowDylan As Button
-    Friend WithEvents btnShowJakeR As Button
+    Friend WithEvents btnCheckout As Button
     Friend WithEvents AvailableColor As Panel
     Friend WithEvents SelectedColor As Panel
     Friend WithEvents TakenColor As Panel

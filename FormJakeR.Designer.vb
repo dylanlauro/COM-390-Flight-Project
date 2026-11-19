@@ -23,8 +23,7 @@ Partial Class FormJakeR
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         SeatLegend = New Panel()
-        btnShowJakeK = New Button()
-        btnShowDylan = New Button()
+        btnCheckout = New Button()
         Label13 = New Label()
         Label14 = New Label()
         LabelTaken = New Label()
@@ -103,23 +102,15 @@ Partial Class FormJakeR
         TakenColor.Size = New Size(18, 18)
         TakenColor.TabIndex = 107
         ' 
-        ' btnShowJakeK
+        ' btnCheckout
         ' 
-        btnShowJakeK.Location = New Point(12, 118)
-        btnShowJakeK.Name = "btnShowJakeK"
-        btnShowJakeK.Size = New Size(140, 30)
-        btnShowJakeK.TabIndex = 401
-        btnShowJakeK.Text = "Show Jake K"
-        btnShowJakeK.UseVisualStyleBackColor = True
-        ' 
-        ' btnShowDylan
-        ' 
-        btnShowDylan.Location = New Point(12, 154)
-        btnShowDylan.Name = "btnShowDylan"
-        btnShowDylan.Size = New Size(140, 30)
-        btnShowDylan.TabIndex = 402
-        btnShowDylan.Text = "Show Dylan"
-        btnShowDylan.UseVisualStyleBackColor = True
+        btnCheckout.Anchor = AnchorStyles.Bottom Or AnchorStyles.Right
+        btnCheckout.Location = New Point(564, 648)
+        btnCheckout.Name = "btnCheckout"
+        btnCheckout.Size = New Size(140, 40)
+        btnCheckout.TabIndex = 410
+        btnCheckout.Text = "Checkout"
+        btnCheckout.UseVisualStyleBackColor = True
         ' 
         ' FormJakeR
         ' 
@@ -127,8 +118,7 @@ Partial Class FormJakeR
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(716, 700)
         Controls.Add(SeatLegend)
-        Controls.Add(btnShowJakeK)
-        Controls.Add(btnShowDylan)
+        Controls.Add(btnCheckout)
         Name = "FormJakeR"
         Text = "Jake R"
         SeatLegend.ResumeLayout(False)
@@ -137,8 +127,7 @@ Partial Class FormJakeR
     End Sub
 
     Friend WithEvents SeatLegend As Panel
-    Friend WithEvents btnShowJakeK As Button
-    Friend WithEvents btnShowDylan As Button
+    Friend WithEvents btnCheckout As Button
     Friend WithEvents Label13 As Label
     Friend WithEvents Label14 As Label
     Friend WithEvents LabelTaken As Label
